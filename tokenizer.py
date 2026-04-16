@@ -5,22 +5,21 @@ stops = []
 
 def parse(filepath:Path)->list:
     tokens = []
-    try:
-        currentString = ""
-        with (open(filepath, 'r', encoding="UTF-8", errors="strict")) as file:
-            while(True):
-                thisChar = file.read(1)
-                if (not thisChar):
-                    break
-                if (thisChar.isalnum()):
-                    currentString = currentString + thisChar
-                else:
-                    tokens.append(currentString)
-                    currentString = ""
-        if (currentString!=""):
-            tokens.append(currentString)
-        for i in range(len(tokens)):
-            tokens[i] = tokens[i].lower()
+    currentString = ""
+    with (open(filepath, 'r', encoding="UTF-8", errors="strict")) as file:
+        while(True):
+            thisChar = file.read(1)
+            if (not thisChar):
+                break
+            if (thisChar.isalnum()):
+                currentString = currentString + thisChar
+            else:
+                tokens.append(currentString)
+                currentString = ""
+    if (currentString!=""):
+        tokens.append(currentString)
+    for i in range(len(tokens)):
+        tokens[i] = tokens[i].lower()
     # except FileNotFoundError:
     #     raise FileNotFoundError()
     # except (UnicodeError,UnicodeDecodeError,UnicodeDecodeError,UnicodeTranslateError) as exc:
