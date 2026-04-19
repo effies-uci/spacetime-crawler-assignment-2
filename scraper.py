@@ -1,6 +1,12 @@
 import re
 from bs4 import BeautifulSoup
-from urllib.parse import urlparse, urljoin
+from urllib.parse import urlparse, urljoin, urlencode, parse_qsl
+
+ALLOWED_DOMAINS = {"https://www.ics.uci.edu","https://www.cs.uci.edu","https://www.informatics.uci.edu","https://www.stat.uci.edu"}
+PATTERN_THRESHOLD = 10
+
+visited = set()
+pattern_count = {}
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)
@@ -36,14 +42,41 @@ def extract_next_links(url, resp):
             # get rid of any fragments
             defragged = absolute_url.split('#')[0]
 
-            if defragged:
+            normalize = normalize_url(defragged)
+            if is_valid(normalize) and normalize not in visited:
+                visited.add(defragged)
                 url_list.append(defragged)
 
     except Exception as e:
         print(f'Error parsing {url}:{e}')
 
-
     return url_list
+
+def normalize_url(url):
+    """
+    sorts the url's query
+    use returned url to check with other urls
+    """
+
+    parsed = urlparse(url)
+
+    # qsl so not to lose duplicate query keys
+    sorted_query = urlencode(sorted(parse_qsl(parsed.query)))
+    normalize = parsed._replace(query=sorted_query).geturl()
+    return normalize.rstrip("/")
+
+def get_url_pattern(url):
+    parsed = urlparse(url)
+    gen_path = re.sub(r'\d+', "NUM", parsed.path)
+    gen_path = re.sub(r'[a-f0-9]{8,}', "HASH", gen_path)
+    return parsed.netloc + gen_path
+
+def is_trap(url):
+    """catches same patterned paths"""
+
+    pattern = get_url_pattern(url)
+    pattern_count[pattern] += 1
+    return pattern_count[pattern] > PATTERN_THRESHOLD
 
 def is_valid(url):
     # Decide whether to crawl this url or not. 
@@ -53,6 +86,29 @@ def is_valid(url):
         parsed = urlparse(url)
         if parsed.scheme not in set(["http", "https"]):
             return False
+        
+        # check if valid domain
+        if not any(
+            parsed.netloc == domain or
+            parsed.netloc.endswith("." + domain) 
+            for domain in ALLOWED_DOMAINS):
+            
+            return False
+        
+        # check if we already visited
+        normalize = normalize_url(url)
+        if normalize in visited:
+            return False
+        
+        visited.add(normalize)
+
+        # check if url is a trap
+        if is_trap(url):
+            return False
+
+        # page content hashing here maybe idk lololol?
+
+
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
