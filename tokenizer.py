@@ -1,8 +1,9 @@
 from pathlib import Path
 from nltk.stem import PorterStemmer
 from errors import TokenizerException
-from stops import stops
+from stops import STOPS
 
+SEPARATORS = [" ", "/n"]
 
 def parse(filepath:Path)->list:
     tokens = []
@@ -12,7 +13,7 @@ def parse(filepath:Path)->list:
             thisChar = file.read(1)
             if (not thisChar):
                 break
-            if (thisChar.isalnum()):
+            if (thisChar in SEPARATORS):
                 currentString = currentString + thisChar
             else:
                 tokens.append(currentString)
@@ -41,7 +42,7 @@ def removeStops(tokens:list) -> list:
     return out
 
 def isStopWord(token:str) -> bool:
-    if token in stops:
+    if token in STOPS:
         return True
     else:
         return False
