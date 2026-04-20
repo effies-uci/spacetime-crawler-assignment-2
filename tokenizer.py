@@ -1,4 +1,5 @@
 from pathlib import Path
+from ntlk.stem import PorterStemmer
 from errors import TokenizerException
 
 stops = []
@@ -38,6 +39,12 @@ def isStopWord(token:str) -> bool:
         return True
     else:
         return False
+    
+def stemWords(tokens:list) -> list:
+    stemmer = PorterStemmer()
+    for token in tokens:
+        token = stemmer.stem(token)
+    return tokens
     
 def computeWordFrequencies(tokens:list)->dict:
     tokenFrequencies = {}
