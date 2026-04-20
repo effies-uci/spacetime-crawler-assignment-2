@@ -27,6 +27,12 @@ def parse(filepath:Path)->list:
     #     raise TokenizerException("Unicode error raised")
     return tokens
 
+def normalizeTokens(tokens:list) -> list:
+    out = []
+    for token in tokens:
+        out.append(token.lower())
+    return out
+
 def removeStops(tokens:list) -> list:
     out = []
     for token in tokens:
