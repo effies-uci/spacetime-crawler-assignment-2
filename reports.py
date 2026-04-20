@@ -2,6 +2,7 @@ from datetime import date,time
 from pathlib import Path
 '''Print crawler data into a text file in reports/ directory'''
 
+NUMFREQWORDS = 20
 reportName = ""
 
 def intialize():
@@ -17,4 +18,13 @@ def pageReport(tokenFreq:dict, pageName:str):
         file.write(f"{pageName}\n")
         file.write(f"{tokenFreq}")
         file.write("\n")
+
+def finalReport(tokenFreq:dict, numPagesVisited:int):
+    sortDict = dict(sorted(tokenFreq.items(), key=lambda item: item[1]))
+    with(open(f"reports/{reportName}.txt", 'a', encoding="UTF-8")) as file:
+        file.write("END REPORT==================\n")
+        file.write(f"Number of pages visited: {int} pages\n")
+        file.write(f"{NUMFREQWORDS} Most Frequent Words:\n")
+        for i in range(NUMFREQWORDS):
+            file.write(f"{sortDict.keys()[i]}: {sortDict[sortDict.keys()[i]]} occurences\n")
 
