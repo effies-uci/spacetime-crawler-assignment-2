@@ -2,7 +2,7 @@ import re
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin, urlencode, parse_qsl
 
-ALLOWED_DOMAINS = {"https://www.ics.uci.edu","https://www.cs.uci.edu","https://www.informatics.uci.edu","https://www.stat.uci.edu"}
+ALLOWED_DOMAINS = {"www.ics.uci.edu","www.cs.uci.edu","www.informatics.uci.edu","www.stat.uci.edu"}
 PATTERN_THRESHOLD = 10
 
 visited = set()
