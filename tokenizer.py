@@ -1,8 +1,8 @@
 from pathlib import Path
-from ntlk.stem import PorterStemmer
+from nltk.stem import PorterStemmer
 from errors import TokenizerException
+from stops import stops
 
-stops = []
 
 def parse(filepath:Path)->list:
     tokens = []
@@ -45,12 +45,3 @@ def stemWords(tokens:list) -> list:
     for token in tokens:
         token = stemmer.stem(token)
     return tokens
-    
-def computeWordFrequencies(tokens:list)->dict:
-    tokenFrequencies = {}
-    for token in tokens:
-        if (token in tokenFrequencies.keys()):
-            tokenFrequencies[token] += 1
-        else:
-            tokenFrequencies[token] = 1
-    return tokenFrequencies
