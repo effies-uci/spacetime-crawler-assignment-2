@@ -2,6 +2,7 @@ from pathlib import Path
 from nltk.stem import PorterStemmer
 from errors import TokenizerException
 from stops import STOPS
+import string
 
 SEPARATORS = [" ", "/n"]
 
@@ -13,11 +14,14 @@ def parse(filepath:Path)->list:
             thisChar = file.read(1)
             if (not thisChar):
                 break
-            if (thisChar in SEPARATORS):
+            elif (thisChar in SEPARATORS):
                 currentString = currentString + thisChar
+            elif (thisChar in string.punctuation):
+                continue
             else:
                 tokens.append(currentString)
                 currentString = ""
+                
     if (currentString!=""):
         tokens.append(currentString)
     for i in range(len(tokens)):
@@ -30,7 +34,7 @@ def parse(filepath:Path)->list:
 
 def normalizeTokens(tokens:list) -> list:
     out = []
-    for token in tokens:
+    for token in tokens: #change all tokens to lower case
         out.append(token.lower())
     return out
 
