@@ -132,6 +132,7 @@ def is_valid(url):
     # There are already some conditions that return False.
     try:
         parsed = urlparse(url)
+
         if parsed.scheme not in set(["http", "https"]):
             return False
         
@@ -144,18 +145,15 @@ def is_valid(url):
             return False
         
         # check if we already visited
-        normalize = normalize_url(url)
-        if normalize in visited:
+        normalize = defrag_and_normalize(url)
+        if normalize in unique_urls:
             return False
         
-        visited.add(normalize)
-
         # check if url is a trap
         if is_trap(url):
             return False
 
         # page content hashing here maybe idk lololol?
-
 
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"

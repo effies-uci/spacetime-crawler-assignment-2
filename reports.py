@@ -28,3 +28,16 @@ def finalReport(tokenFreq:dict, numPagesVisited:int):
         for i in range(NUMFREQWORDS):
             file.write(f"{sortDict.keys()[i]}: {sortDict[sortDict.keys()[i]]} occurences\n")
 
+
+def write_final_report(
+        report_path: Path,
+        unique_urls: set,
+        word_freq: dict,
+        longest_dict: dict,
+        subdomain_pages: dict
+):
+    # Unique Pages
+    # Longest Page
+    # Top 20 most common words
+    # Subdomains in uci.edu
+    pass
