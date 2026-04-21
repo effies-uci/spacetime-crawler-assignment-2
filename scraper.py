@@ -1,14 +1,26 @@
 import re
+from collections import defaultdict
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin, urlencode, parse_qsl
+from tokenizer import tokenize_html, count_words
 
-ALLOWED_DOMAINS = {"www.ics.uci.edu","www.cs.uci.edu","www.informatics.uci.edu","www.stat.uci.edu"}
+ALLOWED_DOMAINS = {"www.ics.uci.edu","www.cs.uci.edu","www.informatics.uci.edu","www.stat.uci.edu","ics.uci.edu"}
 PATTERN_THRESHOLD = 10
 
+
+#########################################
 visited = set()
-pattern_count = {}
+pattern_count: dict = defaultdict(set)
+
+unique_urls: set = set()
+word_freq: dict = defaultdict(int)
+longest_page: dict = {"url": "", "count": 0}
+subdomain_pages: dict = defaultdict(set)
+
+#########################################
 
 def scraper(url, resp):
+    """called by crawler for each fetched page. returns only valid links"""
     links = extract_next_links(url, resp)
     return [link for link in links if is_valid(link)]
 
@@ -23,12 +35,43 @@ def extract_next_links(url, resp):
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
 
+    """
+    returns any subdomains found in link. does NOT check if valid (thats in the scraper !!!)
+    
+    1. defrag and normalize link
+    2. add to unique_urls
+    3. check if this page is the longest page (compared to previously visited ones)
+    4. add word frequencies
+    5. find the <a> tags, defrag and normalize, add to url_list
+    
+    """
+
     url_list = []
 
     if resp.status != 200 or not resp.raw_response or not resp.raw_response.content:
         return url_list
     
     try:
+        content = resp.raw_response.content
+        actual_url = resp.raw_response.url
+
+        canonical_url = defrag_and_normalize(actual_url)
+
+        # add link to unique links
+        unique_urls.add(canonical_url)
+
+        # get word count
+        word_count = count_words(content)
+        if word_count > longest_page["count"]:
+            longest_page["url"] = canonical_url
+            longest_page["count"] = word_count
+
+        # word frequency
+        for token in tokenize_html(content):
+            word_freq[token] += 1
+
+        # find subdomain
+
         soup = BeautifulSoup(resp.raw_response.content, 'lxml')
         html_links = soup.findAll('a', href=True)
 
@@ -40,12 +83,9 @@ def extract_next_links(url, resp):
             absolute_url = urljoin(resp.raw_response.url, href)
 
             # get rid of any fragments
-            defragged = absolute_url.split('#')[0]
+            defragged = defrag_and_normalize(absolute_url)
 
-            normalize = normalize_url(defragged)
-            if is_valid(normalize) and normalize not in visited:
-                visited.add(defragged)
-                url_list.append(defragged)
+            url_list.append(defragged)
 
     except Exception as e:
         print(f'Error parsing {url}:{e}')
@@ -69,19 +109,6 @@ def defrag_and_normalize(url):
     normalize = parsed._replace(query = sorted_query).geturl()
 
     return normalize.rstrip('/')
-
-def normalize_url(url):
-    """
-    sorts the url's query
-    use returned url to check with other urls
-    """
-
-    parsed = urlparse(url)
-
-    # qsl so not to lose duplicate query keys
-    sorted_query = urlencode(sorted(parse_qsl(parsed.query)))
-    normalize = parsed._replace(query=sorted_query).geturl()
-    return normalize.rstrip("/")
 
 def get_url_pattern(url):
     parsed = urlparse(url)
