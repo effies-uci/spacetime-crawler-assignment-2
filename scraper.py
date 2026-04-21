@@ -19,12 +19,12 @@ subdomain_pages: dict = defaultdict(set)
 
 #########################################
 
-def scraper(url, resp):
+def scraper(url, resp, logger = None):
     """called by crawler for each fetched page. returns only valid links"""
-    links = extract_next_links(url, resp)
+    links = extract_next_links(url, resp, logger)
     return [link for link in links if is_valid(link)]
 
-def extract_next_links(url, resp):
+def extract_next_links(url, resp, logger = None):
     # Implementation required.
     # url: the URL that was used to get the page
     # resp.url: the actual url of the page
@@ -56,6 +56,9 @@ def extract_next_links(url, resp):
         actual_url = resp.raw_response.url
 
         canonical_url = defrag_and_normalize(actual_url)
+
+        if logger:
+            logger.info(f"extracting url {canonical_url}")
 
         # add link to unique links
         unique_urls.add(canonical_url)
