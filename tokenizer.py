@@ -3,8 +3,35 @@ from nltk.stem import PorterStemmer
 from errors import TokenizerException
 from stops import STOPS
 import string
+import re
 
-SEPARATORS = [" ", "/n"]
+SEPARATORS = [" ", "/n"]\
+
+def tokenize(text: str) -> list:
+    """splits by non-alphanumeric and lowercase"""
+    
+    tokens = re.findall(r'[a-zA-Z]+', text.lower())
+
+    return [t for t in tokens if not isStopWord(t) and len(t) > 1]
+
+def tokenize_html(html: bytes) -> list:
+    from bs4 import BeautifulSoup
+
+    soup = BeautifulSoup(html, "lxml")
+
+    text = soup.get_text()
+    return tokenize(text)
+
+def count_words(html) -> int:
+    """count total words including stop words"""
+    from bs4 import BeautifulSoup
+
+    soup = BeautifulSoup(html, "lxml")
+    
+    text = soup.get_text()
+    return len(re.findall(r'[a-zA-Z]+', text))
+
+#######
 
 def parse(filepath:Path)->list:
     tokens = []
@@ -26,10 +53,6 @@ def parse(filepath:Path)->list:
         tokens.append(currentString)
     for i in range(len(tokens)):
         tokens[i] = tokens[i].lower()
-    # except FileNotFoundError:
-    #     raise FileNotFoundError()
-    # except (UnicodeError,UnicodeDecodeError,UnicodeDecodeError,UnicodeTranslateError) as exc:
-    #     raise TokenizerException("Unicode error raised")
     return tokens
 
 def normalizeTokens(tokens:list) -> list:
