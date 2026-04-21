@@ -52,6 +52,24 @@ def extract_next_links(url, resp):
 
     return url_list
 
+#### Helpers :D #############################################################
+
+def defrag_and_normalize(url):
+    """
+    removes fragments, sorts the query params, strips trailing slash
+    """
+
+    parsed = urlparse(url)
+
+    no_frag = url.split('#')[0]
+    parsed = urlparse(no_frag)
+
+    # qsl so not to lose duplicate query keys
+    sorted_query = urlencode(sorted(parse_qsl(parsed.query)))
+    normalize = parsed._replace(query = sorted_query).geturl()
+
+    return normalize.rstrip('/')
+
 def normalize_url(url):
     """
     sorts the url's query
@@ -77,6 +95,9 @@ def is_trap(url):
     pattern = get_url_pattern(url)
     pattern_count[pattern] += 1
     return pattern_count[pattern] > PATTERN_THRESHOLD
+
+
+#### Validity checker :3 ##################################################
 
 def is_valid(url):
     # Decide whether to crawl this url or not. 
