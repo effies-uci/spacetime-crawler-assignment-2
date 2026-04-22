@@ -14,7 +14,7 @@ def tokenize_html(html: bytes) -> list:
     soup = BeautifulSoup(html, "lxml")
     soup.head.decompose()
     text = soup.get_text()
-    tokens = parse(text.lower())
+    tokens = parse(text)
     
     return [t for t in tokens if not isStopWord(t) and len(t) > 1]
 
@@ -28,6 +28,7 @@ def count_words(html) -> int:
     return len(re.findall(r'[a-zA-Z]+', text))
 
 def parse(html_text: str)->list:
+    """parses all text into tokens using whitespace"""
     tokens = []
     currentString = ""
     for chr in html_text:
@@ -39,7 +40,7 @@ def parse(html_text: str)->list:
             elif (chr in string.punctuation):
                 continue
             else:
-                currentString = currentString + chr
+                currentString = currentString + chr.lower()
                 
     if (currentString!=""):
         tokens.append(currentString)
