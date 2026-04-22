@@ -2,58 +2,53 @@ from pathlib import Path
 from nltk.stem import PorterStemmer
 from errors import TokenizerException
 from stops import STOPS
+from bs4 import BeautifulSoup
 import string
 import re
 
 SEPARATORS = [" ", "/n"]\
 
-def tokenize(text: str) -> list:
-    """splits by non-alphanumeric and lowercase"""
-    
-    tokens = re.findall(r'[a-zA-Z]+', text.lower())
-
-    return [t for t in tokens if not isStopWord(t) and len(t) > 1]
-
 def tokenize_html(html: bytes) -> list:
-    from bs4 import BeautifulSoup
+    """returns tokens from readable html, removing stop words"""
 
     soup = BeautifulSoup(html, "lxml")
-
+    soup.head.decompose()
     text = soup.get_text()
-    return tokenize(text)
+    tokens = parse(text.lower())
+    
+    return [t for t in tokens if not isStopWord(t) and len(t) > 1]
 
 def count_words(html) -> int:
     """count total words including stop words"""
-    from bs4 import BeautifulSoup
 
     soup = BeautifulSoup(html, "lxml")
-    
+    soup.head.decompose()
     text = soup.get_text()
+
     return len(re.findall(r'[a-zA-Z]+', text))
 
-#######
-
-def parse(filepath:Path)->list:
+def parse(html_text: str)->list:
     tokens = []
     currentString = ""
-    with (open(filepath, 'r', encoding="UTF-8", errors="strict")) as file:
-        while(True):
-            thisChar = file.read(1)
-            if (not thisChar):
+    for chr in html_text:
+            if (not chr):
                 break
-            elif (thisChar in SEPARATORS):
-                currentString = currentString + thisChar
-            elif (thisChar in string.punctuation):
-                continue
-            else:
+            elif (chr in SEPARATORS):
                 tokens.append(currentString)
                 currentString = ""
+            elif (chr in string.punctuation):
+                continue
+            else:
+                currentString = currentString + chr
                 
     if (currentString!=""):
         tokens.append(currentString)
-    for i in range(len(tokens)):
-        tokens[i] = tokens[i].lower()
+
     return tokens
+
+
+
+###########################################################################
 
 def normalizeTokens(tokens:list) -> list:
     out = []
