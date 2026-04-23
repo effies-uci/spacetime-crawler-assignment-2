@@ -10,7 +10,7 @@ PATTERN_THRESHOLD = 10
 
 #########################################
 visited = set()
-pattern_count: dict = defaultdict(set)
+pattern_count: dict = {}
 
 unique_urls: set = set()
 word_freq: dict = defaultdict(int)
@@ -123,7 +123,10 @@ def is_trap(url):
     """catches same patterned paths"""
 
     pattern = get_url_pattern(url)
-    pattern_count[pattern] += 1
+    if (pattern in pattern_count.keys()):
+        pattern_count[pattern] = 1
+    else:
+        pattern_count[pattern] += 1
     return pattern_count[pattern] > PATTERN_THRESHOLD
 
 
