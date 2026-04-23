@@ -10,7 +10,7 @@ PATTERN_THRESHOLD = 10
 
 #########################################
 visited = set()
-pattern_count: dict = defaultdict(set)
+pattern_count: dict = defaultdict(int)
 
 unique_urls: set = set()
 word_freq: dict = defaultdict(int)
