@@ -50,7 +50,7 @@ def extract_next_links(url, resp, logger = None):
 
     if resp.status != 200 or not resp.raw_response or not resp.raw_response.content:
         if logger:
-            logger.info(f'raw response {'is None' if not resp.raw_response else 'exists'}')
+            logger.info(f'raw response is ', 'is None' if not resp.raw_response else 'exists')
         return url_list
 
     try:
