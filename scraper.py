@@ -63,14 +63,15 @@ def extract_next_links(url, resp, logger = None):
         # add link to unique links
         unique_urls.add(canonical_url)
 
+        tokens, word_count = tokenize_html(content)
+        
         # get word count
-        word_count = count_words(content)
         if word_count > longest_page["count"]:
             longest_page["url"] = canonical_url
             longest_page["count"] = word_count
 
         # word frequency
-        for token in tokenize_html(content):
+        for token in tokens:
             word_freq[token] += 1
 
         # find subdomain
