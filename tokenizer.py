@@ -8,7 +8,7 @@ import re
 
 SEPARATORS = [" ", "/n"]\
 
-def tokenize_html(html: bytes) -> list:
+def tokenize_html(html: bytes) -> tuple:
     """returns tokens from readable html, removing stop words"""
 
     soup = BeautifulSoup(html, "lxml")
@@ -16,7 +16,7 @@ def tokenize_html(html: bytes) -> list:
     text = soup.get_text()
     tokens = parse(text)
     
-    return [t for t in tokens if not isStopWord(t) and len(t) > 1]
+    return ([t for t in tokens if not isStopWord(t) and len(t) > 1], len(tokens))
 
 def count_words(html) -> int:
     """count total words including stop words"""
