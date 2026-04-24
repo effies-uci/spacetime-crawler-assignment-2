@@ -51,8 +51,10 @@ def extract_next_links(url, resp, logger = None):
     if resp.status != 200 or not resp.raw_response or not resp.raw_response.content:
         if logger:
             logger.info(f'raw response is ', 'is None' if not resp.raw_response else 'exists')
-
         return url_list
+
+    if logger:
+        logger.info('response exists!')
 
     try:
         content = resp.raw_response.content
@@ -77,7 +79,6 @@ def extract_next_links(url, resp, logger = None):
             word_freq[token] += 1
 
         # find subdomain
-
         soup = BeautifulSoup(resp.raw_response.content, 'lxml')
         html_links = soup.findAll('a', href=True)
 
