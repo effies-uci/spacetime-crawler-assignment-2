@@ -5,6 +5,7 @@ from urllib.parse import urlparse, urljoin, urlencode, parse_qsl
 from tokenizer import tokenize_html, count_words
 
 ALLOWED_DOMAINS = {"www.ics.uci.edu","www.cs.uci.edu","www.informatics.uci.edu","www.stat.uci.edu","ics.uci.edu"}
+BANNED_LIST = {"https://wiki.ics.uci.edu/doku.php", "https://ics.uci.edu/people/?filter%5Boffices_ics%5D%5B1%5D=1079"}
 PATTERN_THRESHOLD = 10
 
 
@@ -130,6 +131,13 @@ def is_trap(url):
     pattern_count[pattern] += 1
     return pattern_count[pattern] > PATTERN_THRESHOLD
 
+def in_ban_list(parse_url):
+    for ban_url in BANNED_LIST:
+        if parse_url.startsWith(ban_url):
+            return True
+
+    return False
+
 
 #### Validity checker :3 ##################################################
 
@@ -158,6 +166,9 @@ def is_valid(url):
         
         # check if url is a trap
         if is_trap(url):
+            return False
+        
+        if in_ban_list(url):
             return False
 
         # page content hashing here maybe idk lololol?
