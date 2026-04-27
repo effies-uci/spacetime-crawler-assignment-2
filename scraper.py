@@ -2,21 +2,27 @@ import re
 from collections import defaultdict
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin, urlencode, parse_qsl
+
+from nltk.corpus.reader.markdown import comma_separated_string_args
+
 from tokenizer import tokenize_html, count_words
 
-ALLOWED_DOMAINS = {"www.ics.uci.edu","www.cs.uci.edu","www.informatics.uci.edu","www.stat.uci.edu","ics.uci.edu"}
-BANNED_LIST = {"https://wiki.ics.uci.edu/doku.php", "https://ics.uci.edu/~eppstein/pix/", "https://isg.ics.uci.edu/events", "http://wics.ics.uci.edu/events", " https://wics.ics.uci.edu/events"}
-PATTERN_THRESHOLD = 10
+ALLOWED_DOMAINS = {"www.ics.uci.edu","www.cs.uci.edu","www.informatics.uci.edu","www.stat.uci.edu",
+                   "ics.uci.edu"}
+BANNED_LIST = {"https://wiki.ics.uci.edu/doku.php", "https://ics.uci.edu/~eppstein/pix/",
+               "https://grape.ics.uci.edu/wiki/asterix/timeline"}
 
+TRAP_REGEX = {"https://grape.ics.uci.edu.*version=.*",
+              ".*/events/.*"}
 
 #########################################
 visited = set()
-pattern_count: dict = defaultdict(int)
 
 unique_urls: set = set()
 word_freq: dict = defaultdict(int)
 longest_page: dict = {"url": "", "count": 0}
 subdomain_pages: dict = defaultdict(set)
+compiled_regex: list[re.Pattern] = list()
 
 #########################################
 
@@ -125,11 +131,20 @@ def get_url_pattern(url):
     return parsed.netloc + gen_path
 
 def is_trap(url):
-    """catches same patterned paths"""
+    """
+    more detailed regex-based trap detection
+    """
 
-    pattern = get_url_pattern(url)
-    pattern_count[pattern] += 1
-    return pattern_count[pattern] > PATTERN_THRESHOLD
+    if len(compiled_regex) == 0:
+        for trap in TRAP_REGEX:
+            compiled_regex.append(re.compile(trap))
+
+    url_string = get_url_pattern(url)
+    for pattern in compiled_regex:
+        if pattern.match(url_string):
+            return True
+
+    return False
 
 def in_ban_list(parse_url):
     for ban_url in BANNED_LIST:
@@ -167,7 +182,7 @@ def is_valid(url):
         # check if url is a trap
         if is_trap(url):
             return False
-        
+
         if in_ban_list(url):
             return False
 
@@ -181,8 +196,12 @@ def is_valid(url):
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
-            + r"|rm|smil|wmv|swf|wma|zip|rar|gz|ova)$", parsed.path.lower())
+            + r"|rm|smil|wmv|swf|wma|zip|rar|gz|ova"
+              r"|py)$", parsed.path.lower())
 
     except TypeError:
         print ("TypeError for ", parsed)
+        raise
+    except ValueError:
+        print ("ValueError for ", parsed)
         raise
