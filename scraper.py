@@ -2,9 +2,11 @@ import re
 from collections import defaultdict
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin, urlencode, parse_qsl
+import tldextract
 
 from nltk.corpus.reader.markdown import comma_separated_string_args
 
+import reports
 from tokenizer import tokenize_html, count_words
 
 ALLOWED_DOMAINS = {"www.ics.uci.edu","www.cs.uci.edu","www.informatics.uci.edu","www.stat.uci.edu",
@@ -20,8 +22,8 @@ visited = set()
 
 unique_urls: set = set()
 word_freq: dict = defaultdict(int)
-longest_page: dict = {"url": "", "count": 0}
-subdomain_pages: dict = defaultdict(set)
+page_lens: dict = dict() # url key, value int
+unique_subdomains: dict = defaultdict(int)
 compiled_regex: list[re.Pattern] = list()
 
 #########################################
@@ -76,16 +78,20 @@ def extract_next_links(url, resp, logger = None):
         unique_urls.add(canonical_url)
 
         # get word count
-        word_count = count_words(content)
-        if word_count > longest_page["count"]:
-            longest_page["url"] = canonical_url
-            longest_page["count"] = word_count
+        page_lens[canonical_url] = count_words(content)
 
         # word frequency
+        page_word_freq = defaultdict(int)
         for token in tokenize_html(content):
+            page_word_freq[token] += 1
             word_freq[token] += 1
 
         # find subdomain
+        unique_subdomains[tldextract.extract(canonical_url).subdomain] += 1
+
+        # write to report
+        reports.write_page_report(page_word_freq, canonical_url)
+
         soup = BeautifulSoup(resp.raw_response.content, 'lxml')
         html_links = soup.findAll('a', href=True)
 

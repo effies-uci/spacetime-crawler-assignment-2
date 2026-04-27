@@ -22,7 +22,7 @@ def write_page_report(tokenFreq:dict, pageName:str):
 
 def write_total_report(tokenFreq:dict, uniqueUrls:set, subdomains:dict, pageLens:dict):
 
-    sortDict = dict(sorted(tokenFreq.items(), key=lambda item: item[1]))
+    sort_dict = dict(sorted(tokenFreq.items(), key=lambda item: item[1]))
 
 
     with(open(f"reports/{reportName}.txt", 'a', encoding="UTF-8")) as file:
@@ -33,11 +33,11 @@ def write_total_report(tokenFreq:dict, uniqueUrls:set, subdomains:dict, pageLens
 
         file.write(f"{NUMFREQWORDS} Most Frequent Words:\n")
         for i in range(NUMFREQWORDS):
-            file.write(f"\t{sortDict.keys()[i]} - {sortDict[sortDict.keys()[i]]} occurences\n")
+            file.write(f"\t{sort_dict.keys()[i]} - {sort_dict[sort_dict.keys()[i]]} occurences\n")
 
         file.write(f"Number of subdomains per url:\n")
         for url in subdomains.keys():
-            file.write(f"\t{url} - {subdomains[url]} subdomains\n")
+            file.write(f"\t{url}.uci.edu - {subdomains[url]} subdomains\n")
         
         file.write(f"Longest page: {getLongestPage(pageLens)}")
 
@@ -60,9 +60,9 @@ def write_final_report(
 
 def getLongestPage(pageLens:dict) -> str:
     longest = 0
-    longestName = ""
+    longest_name = ""
     for url in pageLens.keys():
         if pageLens[url] > longest:
             longest = pageLens[url]
-            longestName = url
-    return f"{longestName} ({longest} tokens)"
+            longest_name = url
+    return f"{longest_name} ({longest} tokens)"

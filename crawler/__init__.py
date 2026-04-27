@@ -1,3 +1,4 @@
+import reports
 from utils import get_logger
 from crawler.frontier import Frontier
 from crawler.worker import Worker
@@ -9,6 +10,8 @@ class Crawler(object):
         self.frontier = frontier_factory(config, restart)
         self.workers = list()
         self.worker_factory = worker_factory
+
+        reports.intialize_crawler_log()
 
     def start_async(self):
         self.workers = [

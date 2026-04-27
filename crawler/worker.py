@@ -1,6 +1,8 @@
 from threading import Thread
 
 from inspect import getsource
+
+import reports
 from utils.download import download
 from utils import get_logger
 import scraper
@@ -22,6 +24,8 @@ class Worker(Thread):
             tbd_url = self.frontier.get_tbd_url()
             if not tbd_url:
                 self.logger.info("Frontier is empty. Stopping Crawler.")
+                reports.write_total_report(scraper.word_freq, scraper.unique_urls,
+                                           scraper.unique_subdomains, scraper.page_lens)
                 break
             resp = download(tbd_url, self.config, self.logger)
             self.logger.info(

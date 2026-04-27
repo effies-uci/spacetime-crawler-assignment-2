@@ -19,7 +19,7 @@ class Frontier(object):
                 f"Did not find save file {self.config.save_file}, "
                 f"starting from seed.")
         elif os.path.exists(self.config.save_file) and restart:
-            # Save file does exists, but request to start from seed.
+            # Save file does exist, but request to start from seed.
             self.logger.info(
                 f"Found save file {self.config.save_file}, deleting it.")
             os.remove(self.config.save_file)
