@@ -4,6 +4,7 @@ from argparse import ArgumentParser
 from utils.server_registration import get_cache_server
 from utils.config import Config
 from crawler import Crawler
+from reports import intialize_crawler_log
 
 
 def main(config_file, restart):
@@ -11,6 +12,7 @@ def main(config_file, restart):
     cparser.read(config_file)
     config = Config(cparser)
     config.cache_server = get_cache_server(config, restart)
+    intialize_crawler_log()
     crawler = Crawler(config, restart)
     crawler.start()
 

@@ -11,8 +11,6 @@ class Crawler(object):
         self.workers = list()
         self.worker_factory = worker_factory
 
-        reports.intialize_crawler_log()
-
     def start_async(self):
         self.workers = [
             self.worker_factory(worker_id, self.config, self.frontier)
