@@ -5,7 +5,7 @@ from urllib.parse import urlparse, urljoin, urlencode, parse_qsl
 from tokenizer import tokenize_html, count_words
 
 ALLOWED_DOMAINS = {"www.ics.uci.edu","www.cs.uci.edu","www.informatics.uci.edu","www.stat.uci.edu","ics.uci.edu"}
-BANNED_LIST = {"https://wiki.ics.uci.edu/doku.php", "https://ics.uci.edu/people/?filter%5Boffices_ics%5D%5B1%5D=1079"}
+BANNED_LIST = {"https://wiki.ics.uci.edu/doku.php", "https://ics.uci.edu/~eppstein/pix/", "https://isg.ics.uci.edu/events", "http://wics.ics.uci.edu/events", " https://wics.ics.uci.edu/events"}
 PATTERN_THRESHOLD = 10
 
 
