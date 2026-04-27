@@ -133,7 +133,7 @@ def is_trap(url):
 
 def in_ban_list(parse_url):
     for ban_url in BANNED_LIST:
-        if parse_url.startsWith(ban_url):
+        if parse_url.startswith(ban_url):
             return True
 
     return False
