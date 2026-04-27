@@ -6,9 +6,9 @@ from bs4 import BeautifulSoup
 import string
 import re
 
-SEPARATORS = [" ", "/n"]\
+SEPARATORS = [' ','\n','\t']
 
-def tokenize_html(html: bytes) -> list[string]:
+def tokenize_html(html: bytes) -> list[str]:
     """returns tokens from readable html, removing stop words"""
 
     soup = BeautifulSoup(html, "lxml")
