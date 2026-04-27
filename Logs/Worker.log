@@ -24110,3 +24110,1472 @@
 2026-04-26 18:44:03,842 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-winter-project2/TomcatTest.war, status <200>, using cache ('styx.ics.uci.edu', 9002).
 2026-04-26 18:44:03,842 - Worker-0 - INFO - response exists!
 2026-04-26 18:44:03,842 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-winter-project2/TomcatTest.war
+2026-04-26 18:44:04,363 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:04,364 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:04,364 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1
+2026-04-26 18:44:04,959 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs122b-2017-winter-project1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:04,959 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:04,959 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs122b-2017-winter-project1
+2026-04-26 18:44:06,344 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:06,344 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:06,344 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws
+2026-04-26 18:44:06,899 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:06,899 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:06,899 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws?format=txt
+2026-04-26 18:44:07,416 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:07,416 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:07,416 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws
+2026-04-26 18:44:10,175 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws?action=diff&version=9, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:10,175 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:10,175 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws?action=diff&version=9
+2026-04-26 18:44:10,718 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws?version=9, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:10,718 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:10,718 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws?version=9
+2026-04-26 18:44:11,263 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws?version=8, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:11,263 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:11,264 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws?version=8
+2026-04-26 18:44:11,807 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws?action=diff&version=8, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:11,807 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:11,807 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws?action=diff&version=8
+2026-04-26 18:44:12,346 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:12,346 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:12,346 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter-project1-install-tomcat-on-aws?action=history
+2026-04-26 18:44:12,879 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-winter-project1/JDBC3.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:12,879 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:12,879 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-winter-project1/JDBC3.java
+2026-04-26 18:44:13,388 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-winter-project1/JDBC3.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:13,388 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:13,388 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-winter-project1/JDBC3.java
+2026-04-26 18:44:13,941 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-winter-project1/JDBC2.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:13,941 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:13,941 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-winter-project1/JDBC2.java
+2026-04-26 18:44:14,449 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-winter-project1/JDBC2.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:14,450 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:14,450 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-winter-project1/JDBC2.java
+2026-04-26 18:44:14,990 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-winter-project1/JDBC1.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:14,990 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:14,990 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-winter-project1/JDBC1.java
+2026-04-26 18:44:15,499 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-winter-project1/JDBC1.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:15,499 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:15,499 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-winter-project1/JDBC1.java
+2026-04-26 18:44:16,060 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-winter-project1/how_to_run.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:16,060 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:16,060 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-winter-project1/how_to_run.txt
+2026-04-26 18:44:16,569 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-winter-project1/how_to_run.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:16,569 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:16,569 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-winter-project1/how_to_run.txt
+2026-04-26 18:44:17,115 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-winter-project1/data.sql, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:17,115 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:17,115 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-winter-project1/data.sql
+2026-04-26 18:44:17,631 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-winter-project1/data.sql, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:17,631 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:17,631 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-winter-project1/data.sql
+2026-04-26 18:44:18,154 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:18,154 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:18,154 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter?action=history
+2026-04-26 18:44:18,868 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:18,868 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:18,868 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring
+2026-04-26 18:44:19,498 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:19,499 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:19,499 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring?format=txt
+2026-04-26 18:44:20,059 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring?action=diff&version=85, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:20,059 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:20,060 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring?action=diff&version=85
+2026-04-26 18:44:20,600 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring?version=85, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:20,600 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:20,600 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring?version=85
+2026-04-26 18:44:21,197 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring?version=84, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:21,197 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:21,197 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring?version=84
+2026-04-26 18:44:21,801 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring?action=diff&version=84, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:21,801 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:21,801 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring?action=diff&version=84
+2026-04-26 18:44:22,336 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring/AjaxTest.war, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:22,336 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:22,336 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring/AjaxTest.war
+2026-04-26 18:44:23,533 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring/AjaxTest.war, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:23,533 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:23,533 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring/AjaxTest.war
+2026-04-26 18:44:24,053 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring/BatchInsert.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:24,053 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:24,053 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring/BatchInsert.java
+2026-04-26 18:44:24,562 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring/BatchInsert.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:24,562 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:24,562 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring/BatchInsert.java
+2026-04-26 18:44:25,140 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project3/DomParserExample.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:25,140 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:25,140 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project3/DomParserExample.java
+2026-04-26 18:44:25,649 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project3/DomParserExample.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:25,649 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:25,649 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project3/DomParserExample.java
+2026-04-26 18:44:26,345 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project3/Employee.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:26,345 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:26,345 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project3/Employee.java
+2026-04-26 18:44:26,853 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project3/Employee.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:26,853 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:26,854 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project3/Employee.java
+2026-04-26 18:44:27,431 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project3/SAXParserExample.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:27,431 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:27,431 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project3/SAXParserExample.java
+2026-04-26 18:44:27,940 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project3/SAXParserExample.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:27,940 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:27,940 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project3/SAXParserExample.java
+2026-04-26 18:44:28,547 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project3/employees.xml, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:28,547 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:28,547 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project3/employees.xml
+2026-04-26 18:44:29,056 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project3/employees.xml, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:29,057 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:29,057 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project3/employees.xml
+2026-04-26 18:44:29,599 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring-project5, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:29,599 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:29,599 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring-project5
+2026-04-26 18:44:30,175 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs122b-2017-spring-project5, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:30,175 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:30,175 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs122b-2017-spring-project5
+2026-04-26 18:44:30,974 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project5/000-default.conf, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:30,974 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:30,974 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project5/000-default.conf
+2026-04-26 18:44:31,483 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project5/000-default.conf, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:31,483 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:31,483 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project5/000-default.conf
+2026-04-26 18:44:32,040 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring-project4, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:32,040 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:32,040 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring-project4
+2026-04-26 18:44:32,597 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs122b-2017-spring-project4, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:32,597 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:32,597 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs122b-2017-spring-project4
+2026-04-26 18:44:33,794 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project4/AjaxTest.war, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:33,795 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:33,795 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project4/AjaxTest.war
+2026-04-26 18:44:34,986 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project4/AjaxTest.war, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:34,986 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:34,986 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project4/AjaxTest.war
+2026-04-26 18:44:35,507 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring-project3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:35,507 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:35,507 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring-project3
+2026-04-26 18:44:36,083 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project3/TomcatFormReCaptcha.war, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:36,083 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:36,083 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project3/TomcatFormReCaptcha.war
+2026-04-26 18:44:41,646 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project3/TomcatFormReCaptcha.war, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:41,647 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:41,647 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project3/TomcatFormReCaptcha.war
+2026-04-26 18:44:42,167 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring-project2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:42,167 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:42,167 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring-project2
+2026-04-26 18:44:42,741 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs122b-2017-spring-project2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:42,741 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:42,741 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs122b-2017-spring-project2
+2026-04-26 18:44:43,566 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring-project1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:43,566 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:43,566 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring-project1
+2026-04-26 18:44:44,159 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs122b-2017-spring-project1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:44,159 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:44,159 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs122b-2017-spring-project1
+2026-04-26 18:44:45,544 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project1/JDBC3.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:45,544 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:45,544 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project1/JDBC3.java
+2026-04-26 18:44:46,052 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project1/JDBC3.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:46,053 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:46,053 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project1/JDBC3.java
+2026-04-26 18:44:46,653 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project1/JDBC2.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:46,654 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:46,654 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project1/JDBC2.java
+2026-04-26 18:44:47,163 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project1/JDBC2.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:47,163 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:47,163 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project1/JDBC2.java
+2026-04-26 18:44:47,702 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project1/JDBC1.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:47,702 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:47,702 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project1/JDBC1.java
+2026-04-26 18:44:48,211 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project1/JDBC1.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:48,211 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:48,211 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project1/JDBC1.java
+2026-04-26 18:44:48,772 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project1/how_to_run.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:48,772 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:48,772 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project1/how_to_run.txt
+2026-04-26 18:44:49,281 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project1/how_to_run.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:49,281 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:49,281 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project1/how_to_run.txt
+2026-04-26 18:44:49,830 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project1/data.sql, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:49,830 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:49,830 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project1/data.sql
+2026-04-26 18:44:50,345 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project1/data.sql, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:50,345 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:50,345 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2017-spring-project1/data.sql
+2026-04-26 18:44:50,867 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:50,867 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:50,867 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-spring?action=history
+2026-04-26 18:44:51,525 - Worker-0 - INFO - Downloaded http://www.ics.uci.edu/~jianfenj, status <500>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:51,525 - Worker-0 - INFO - raw response is None
+2026-04-26 18:44:52,033 - Worker-0 - INFO - Downloaded http://cloudberry.ics.uci.edu/demos/twittermap, status <404>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:52,033 - Worker-0 - INFO - raw response is None
+2026-04-26 18:44:52,542 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:52,542 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:52,542 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter
+2026-04-26 18:44:53,163 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-winter/BatchInsert.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:53,163 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:53,163 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-winter/BatchInsert.java
+2026-04-26 18:44:53,672 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-winter/BatchInsert.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:53,672 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:53,672 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-winter/BatchInsert.java
+2026-04-26 18:44:54,248 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-winter-project3/DomParserExample.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:54,248 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:54,248 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-winter-project3/DomParserExample.java
+2026-04-26 18:44:54,757 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-winter-project3/DomParserExample.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:54,757 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:54,757 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-winter-project3/DomParserExample.java
+2026-04-26 18:44:55,453 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-winter-project3/Employee.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:55,453 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:55,453 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-winter-project3/Employee.java
+2026-04-26 18:44:55,962 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-winter-project3/Employee.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:55,962 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:55,962 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-winter-project3/Employee.java
+2026-04-26 18:44:56,540 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-winter-project3/SAXParserExample.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:56,540 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:56,540 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-winter-project3/SAXParserExample.java
+2026-04-26 18:44:57,049 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-winter-project3/SAXParserExample.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:57,049 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:57,049 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-winter-project3/SAXParserExample.java
+2026-04-26 18:44:57,657 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-winter-project3/employees.xml, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:57,657 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:57,657 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-winter-project3/employees.xml
+2026-04-26 18:44:58,167 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-winter-project3/employees.xml, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:58,167 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:58,167 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-winter-project3/employees.xml
+2026-04-26 18:44:58,702 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter-project1-git, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:58,702 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:58,702 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter-project1-git
+2026-04-26 18:44:59,236 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter-project1-git?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:59,236 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:59,236 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter-project1-git?format=txt
+2026-04-26 18:44:59,749 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter-project1-git?action=diff&version=8, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:44:59,749 - Worker-0 - INFO - response exists!
+2026-04-26 18:44:59,749 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter-project1-git?action=diff&version=8
+2026-04-26 18:45:00,290 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter-project1-git?version=8, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:00,290 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:00,291 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter-project1-git?version=8
+2026-04-26 18:45:00,819 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter-project1-git?version=7, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:00,819 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:00,819 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter-project1-git?version=7
+2026-04-26 18:45:01,350 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter-project1-git?action=diff&version=7, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:01,350 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:01,350 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter-project1-git?action=diff&version=7
+2026-04-26 18:45:01,939 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter-project1-git?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:01,939 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:01,939 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-winter-project1-git?action=history
+2026-04-26 18:45:02,472 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-winter-project1/cs122b-setup-scripts.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:02,473 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:02,473 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-winter-project1/cs122b-setup-scripts.txt
+2026-04-26 18:45:02,982 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-winter-project1/cs122b-setup-scripts.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:02,982 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:02,982 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-winter-project1/cs122b-setup-scripts.txt
+2026-04-26 18:45:03,537 - Worker-0 - INFO - Downloaded http://www.cs.uci.edu/socal-social-analytics-workshop-serves-as-catalyst-for-multidisciplinary-collaborations, status <404>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:03,537 - Worker-0 - INFO - raw response is None
+2026-04-26 18:45:04,046 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:04,046 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:04,046 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall
+2026-04-26 18:45:04,689 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:04,689 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:04,689 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall?format=txt
+2026-04-26 18:45:05,215 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall?action=diff&version=72, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:05,215 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:05,215 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall?action=diff&version=72
+2026-04-26 18:45:05,794 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall?version=72, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:05,795 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:05,795 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall?version=72
+2026-04-26 18:45:06,421 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall?version=71, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:06,422 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:06,422 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall?version=71
+2026-04-26 18:45:07,048 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall?action=diff&version=71, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:07,048 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:07,048 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall?action=diff&version=71
+2026-04-26 18:45:07,580 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-git, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:07,580 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:07,581 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-git
+2026-04-26 18:45:08,126 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-git?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:08,126 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:08,126 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-git?format=txt
+2026-04-26 18:45:08,636 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222p-2018-fall-git, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:08,636 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:08,636 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222p-2018-fall-git
+2026-04-26 18:45:10,307 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-git?action=diff&version=9, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:10,307 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:10,307 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-git?action=diff&version=9
+2026-04-26 18:45:10,843 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-git?action=diff&version=8, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:10,843 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:10,843 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-git?action=diff&version=8
+2026-04-26 18:45:11,387 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-git?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:11,387 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:11,387 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-git?action=history
+2026-04-26 18:45:11,920 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:11,920 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:11,920 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4
+2026-04-26 18:45:12,501 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222p-2018-fall-project4, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:12,501 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:12,501 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222p-2018-fall-project4
+2026-04-26 18:45:13,012 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4-grading, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:13,013 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:13,013 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4-grading
+2026-04-26 18:45:13,543 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4-grading?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:13,543 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:13,543 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4-grading?format=txt
+2026-04-26 18:45:14,051 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4-grading?action=diff&version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:14,051 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:14,051 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4-grading?action=diff&version=2
+2026-04-26 18:45:14,592 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4-grading?version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:14,592 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:14,592 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4-grading?version=2
+2026-04-26 18:45:15,118 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4-grading?version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:15,118 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:15,118 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4-grading?version=1
+2026-04-26 18:45:15,647 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4-grading?action=diff&version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:15,647 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:15,647 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4-grading?action=diff&version=1
+2026-04-26 18:45:16,193 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4-grading?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:16,193 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:16,193 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project4-grading?action=history
+2026-04-26 18:45:16,716 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222p-2018-fall-project4/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:16,717 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:16,717 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222p-2018-fall-project4/test.sh
+2026-04-26 18:45:17,225 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222p-2018-fall-project4/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:17,225 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:17,225 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222p-2018-fall-project4/test.sh
+2026-04-26 18:45:17,771 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:17,771 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:17,772 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1
+2026-04-26 18:45:18,396 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222p-2018-fall-project1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:18,396 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:18,396 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222p-2018-fall-project1
+2026-04-26 18:45:19,638 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222p-2018-fall-project1/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:19,638 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:19,639 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222p-2018-fall-project1/test.sh
+2026-04-26 18:45:20,147 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222p-2018-fall-project1/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:20,147 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:20,147 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222p-2018-fall-project1/test.sh
+2026-04-26 18:45:20,688 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-create-project, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:20,688 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:20,688 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-create-project
+2026-04-26 18:45:21,230 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-create-project?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:21,230 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:21,230 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-create-project?format=txt
+2026-04-26 18:45:21,776 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222p-2018-fall-project1-create-project, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:21,777 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:21,777 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222p-2018-fall-project1-create-project
+2026-04-26 18:45:24,754 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-create-project?action=diff&version=4, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:24,754 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:24,754 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-create-project?action=diff&version=4
+2026-04-26 18:45:25,298 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-create-project?version=4, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:25,299 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:25,299 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-create-project?version=4
+2026-04-26 18:45:25,835 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-create-project?version=3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:25,835 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:25,835 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-create-project?version=3
+2026-04-26 18:45:26,373 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-create-project?action=diff&version=3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:26,373 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:26,373 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-create-project?action=diff&version=3
+2026-04-26 18:45:26,915 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-create-project?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:26,915 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:26,915 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-create-project?action=history
+2026-04-26 18:45:27,444 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/computing/linux/hosts.php, status <404>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:27,444 - Worker-0 - INFO - raw response is None
+2026-04-26 18:45:27,951 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-linux-setup-guide, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:27,952 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:27,952 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-linux-setup-guide
+2026-04-26 18:45:28,481 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-linux-setup-guide?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:28,481 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:28,481 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-linux-setup-guide?format=txt
+2026-04-26 18:45:28,990 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-linux-setup-guide?action=diff&version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:28,990 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:28,990 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-linux-setup-guide?action=diff&version=2
+2026-04-26 18:45:29,528 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-linux-setup-guide?version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:29,528 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:29,528 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-linux-setup-guide?version=2
+2026-04-26 18:45:30,055 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-linux-setup-guide?version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:30,055 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:30,055 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-linux-setup-guide?version=1
+2026-04-26 18:45:30,582 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-create-project, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:30,582 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:30,582 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-create-project
+2026-04-26 18:45:31,124 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-create-project?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:31,124 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:31,124 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-create-project?format=txt
+2026-04-26 18:45:31,669 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222-2018-fall-project1-create-project, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:31,669 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:31,669 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222-2018-fall-project1-create-project
+2026-04-26 18:45:34,675 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-create-project?action=diff&version=5, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:34,675 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:34,676 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-create-project?action=diff&version=5
+2026-04-26 18:45:35,216 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-create-project?version=5, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:35,216 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:35,216 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-create-project?version=5
+2026-04-26 18:45:35,752 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-create-project?version=4, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:35,752 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:35,752 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-create-project?version=4
+2026-04-26 18:45:36,289 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-create-project?action=diff&version=4, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:36,289 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:36,290 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-create-project?action=diff&version=4
+2026-04-26 18:45:36,822 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-create-project?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:36,822 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:36,822 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-create-project?action=history
+2026-04-26 18:45:37,350 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-linux-setup-guide?action=diff&version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:37,351 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:37,351 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-linux-setup-guide?action=diff&version=1
+2026-04-26 18:45:37,895 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-linux-setup-guide?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:37,895 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:37,895 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-linux-setup-guide?action=history
+2026-04-26 18:45:38,420 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~pattis/common/handouts/mingweclipse/eclipse.html, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:38,420 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:38,420 - Worker-0 - INFO - extracting url https://ics.uci.edu/~pattis/common/handouts/mingweclipse/eclipse.html
+2026-04-26 18:45:38,941 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/~pattis/common/handouts/mingweclipse/mingw.html, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:38,941 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:38,941 - Worker-0 - INFO - extracting url https://ics.uci.edu/~pattis/common/handouts/mingweclipse/mingw.html
+2026-04-26 18:45:39,468 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-mac-setup-guide, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:39,468 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:39,468 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-mac-setup-guide
+2026-04-26 18:45:40,007 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-mac-setup-guide?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:40,007 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:40,007 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-mac-setup-guide?format=txt
+2026-04-26 18:45:40,516 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-mac-setup-guide?action=diff&version=3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:40,516 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:40,516 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-mac-setup-guide?action=diff&version=3
+2026-04-26 18:45:41,054 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-mac-setup-guide?version=3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:41,054 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:41,054 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-mac-setup-guide?version=3
+2026-04-26 18:45:41,583 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-mac-setup-guide?version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:41,583 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:41,583 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-mac-setup-guide?version=2
+2026-04-26 18:45:42,115 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-mac-setup-guide?action=diff&version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:42,115 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:42,115 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-mac-setup-guide?action=diff&version=2
+2026-04-26 18:45:42,647 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-setup-gdb-on-macos, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:42,647 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:42,647 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-setup-gdb-on-macos
+2026-04-26 18:45:43,184 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-setup-gdb-on-macos?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:43,184 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:43,184 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-setup-gdb-on-macos?format=txt
+2026-04-26 18:45:43,697 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222p-2018-fall-setup-gdb-on-macos, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:43,697 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:43,697 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222p-2018-fall-setup-gdb-on-macos
+2026-04-26 18:45:46,861 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-setup-gdb-on-macos?action=diff&version=3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:46,861 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:46,862 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-setup-gdb-on-macos?action=diff&version=3
+2026-04-26 18:45:47,400 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-setup-gdb-on-macos?version=3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:47,400 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:47,400 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-setup-gdb-on-macos?version=3
+2026-04-26 18:45:47,932 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-setup-gdb-on-macos?version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:47,932 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:47,932 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-setup-gdb-on-macos?version=2
+2026-04-26 18:45:48,465 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-setup-gdb-on-macos?action=diff&version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:48,465 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:48,466 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-setup-gdb-on-macos?action=diff&version=2
+2026-04-26 18:45:49,000 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-setup-gdb-on-macos?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:49,000 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:49,000 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-setup-gdb-on-macos?action=history
+2026-04-26 18:45:49,524 - Worker-0 - INFO - Downloaded http://www.ics.uci.edu/~pattis/common/handouts/macmingweclipse/eclipse.html, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:49,524 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:49,524 - Worker-0 - INFO - extracting url https://ics.uci.edu/~pattis/common/handouts/macmingweclipse/eclipse.html
+2026-04-26 18:45:50,079 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-mac-setup-guide?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:50,079 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:50,079 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-mac-setup-guide?action=history
+2026-04-26 18:45:50,605 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-description, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:50,605 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:50,605 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-description
+2026-04-26 18:45:51,247 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-description?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:51,247 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:51,248 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-description?format=txt
+2026-04-26 18:45:51,757 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-description?action=diff&version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:51,757 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:51,757 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-description?action=diff&version=2
+2026-04-26 18:45:52,297 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-description?version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:52,297 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:52,297 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-description?version=2
+2026-04-26 18:45:52,900 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-description?version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:52,900 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:52,900 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-description?version=1
+2026-04-26 18:45:53,503 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-description?action=diff&version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:53,503 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:53,503 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-description?action=diff&version=1
+2026-04-26 18:45:54,189 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-description?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:54,189 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:54,189 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project1-description?action=history
+2026-04-26 18:45:54,711 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:54,711 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:54,711 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project3
+2026-04-26 18:45:55,281 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222p-2018-fall-project3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:55,281 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:55,282 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222p-2018-fall-project3
+2026-04-26 18:45:55,812 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222p-2018-fall-project3/tree3.svg, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:55,812 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:55,812 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222p-2018-fall-project3/tree3.svg
+2026-04-26 18:45:56,329 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222p-2018-fall-project3/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:56,329 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:56,329 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222p-2018-fall-project3/test.sh
+2026-04-26 18:45:56,838 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222p-2018-fall-project3/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:56,838 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:56,838 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222p-2018-fall-project3/test.sh
+2026-04-26 18:45:57,432 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222p-2018-fall-project3/tree3.svg, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:57,433 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:57,433 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222p-2018-fall-project3/tree3.svg
+2026-04-26 18:45:57,954 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:57,954 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:57,954 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall-project2
+2026-04-26 18:45:58,507 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222p-2018-fall-project2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:58,507 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:58,507 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222p-2018-fall-project2
+2026-04-26 18:45:59,020 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222p-2018-fall-project2/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:59,020 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:59,020 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222p-2018-fall-project2/test.sh
+2026-04-26 18:45:59,528 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222p-2018-fall-project2/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:45:59,528 - Worker-0 - INFO - response exists!
+2026-04-26 18:45:59,529 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222p-2018-fall-project2/test.sh
+2026-04-26 18:46:00,073 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222p-2018-fall/setup-mysql.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:00,074 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:00,074 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222p-2018-fall/setup-mysql.txt
+2026-04-26 18:46:00,583 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222p-2018-fall/setup-mysql.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:00,583 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:00,583 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222p-2018-fall/setup-mysql.txt
+2026-04-26 18:46:01,121 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:01,121 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:01,121 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2018-fall?action=history
+2026-04-26 18:46:01,765 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:01,766 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:01,766 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall
+2026-04-26 18:46:02,392 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:02,393 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:02,393 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall?format=txt
+2026-04-26 18:46:02,919 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall?action=diff&version=72, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:02,919 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:02,919 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall?action=diff&version=72
+2026-04-26 18:46:03,458 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall?version=72, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:03,458 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:03,458 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall?version=72
+2026-04-26 18:46:04,072 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall?version=71, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:04,072 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:04,073 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall?version=71
+2026-04-26 18:46:04,681 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall?action=diff&version=71, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:04,681 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:04,681 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall?action=diff&version=71
+2026-04-26 18:46:05,213 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:05,213 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:05,213 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git
+2026-04-26 18:46:05,760 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:05,760 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:05,760 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git?format=txt
+2026-04-26 18:46:06,272 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222-2018-fall-git, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:06,272 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:06,272 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222-2018-fall-git
+2026-04-26 18:46:08,409 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git?action=diff&version=7, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:08,409 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:08,409 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git?action=diff&version=7
+2026-04-26 18:46:08,997 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git?version=7, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:08,997 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:08,997 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git?version=7
+2026-04-26 18:46:09,536 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git?version=6, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:09,536 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:09,536 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git?version=6
+2026-04-26 18:46:10,080 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git?action=diff&version=6, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:10,081 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:10,081 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git?action=diff&version=6
+2026-04-26 18:46:10,624 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:10,624 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:10,624 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-git?action=history
+2026-04-26 18:46:11,156 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:11,156 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:11,156 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4
+2026-04-26 18:46:11,741 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222-2018-fall-project4, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:11,741 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:11,742 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222-2018-fall-project4
+2026-04-26 18:46:12,254 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4-grading, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:12,254 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:12,254 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4-grading
+2026-04-26 18:46:12,784 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4-grading?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:12,784 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:12,784 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4-grading?format=txt
+2026-04-26 18:46:13,294 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4-grading?action=diff&version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:13,294 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:13,294 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4-grading?action=diff&version=2
+2026-04-26 18:46:13,835 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4-grading?version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:13,835 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:13,835 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4-grading?version=2
+2026-04-26 18:46:14,361 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4-grading?version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:14,361 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:14,361 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4-grading?version=1
+2026-04-26 18:46:14,887 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4-grading?action=diff&version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:14,887 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:14,887 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4-grading?action=diff&version=1
+2026-04-26 18:46:15,437 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4-grading?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:15,437 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:15,437 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project4-grading?action=history
+2026-04-26 18:46:15,959 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222-2018-fall-project4/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:15,959 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:15,959 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222-2018-fall-project4/test.sh
+2026-04-26 18:46:16,468 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222-2018-fall-project4/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:16,468 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:16,468 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222-2018-fall-project4/test.sh
+2026-04-26 18:46:17,016 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-command-line-interface, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:17,016 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:17,017 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-command-line-interface
+2026-04-26 18:46:17,554 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-command-line-interface?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:17,554 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:17,554 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-command-line-interface?format=txt
+2026-04-26 18:46:18,072 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-command-line-interface?action=diff&version=3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:18,072 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:18,072 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-command-line-interface?action=diff&version=3
+2026-04-26 18:46:18,612 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-command-line-interface?version=3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:18,612 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:18,612 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-command-line-interface?version=3
+2026-04-26 18:46:19,145 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-command-line-interface?version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:19,145 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:19,145 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-command-line-interface?version=2
+2026-04-26 18:46:19,680 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-command-line-interface?action=diff&version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:19,680 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:19,680 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-command-line-interface?action=diff&version=2
+2026-04-26 18:46:20,213 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-command-line-interface?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:20,213 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:20,213 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-command-line-interface?action=history
+2026-04-26 18:46:20,737 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:20,737 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:20,737 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1
+2026-04-26 18:46:21,313 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222-2018-fall-project1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:21,314 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:21,314 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222-2018-fall-project1
+2026-04-26 18:46:22,551 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222-2018-fall-project1/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:22,551 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:22,551 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222-2018-fall-project1/test.sh
+2026-04-26 18:46:23,059 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222-2018-fall-project1/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:23,059 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:23,060 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222-2018-fall-project1/test.sh
+2026-04-26 18:46:23,604 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:23,605 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:23,605 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide
+2026-04-26 18:46:24,134 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:24,134 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:24,135 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide?format=txt
+2026-04-26 18:46:24,644 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide?action=diff&version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:24,644 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:24,644 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide?action=diff&version=2
+2026-04-26 18:46:25,183 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide?version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:25,183 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:25,183 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide?version=2
+2026-04-26 18:46:25,708 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide?version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:25,708 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:25,708 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide?version=1
+2026-04-26 18:46:26,233 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide?action=diff&version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:26,233 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:26,233 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide?action=diff&version=1
+2026-04-26 18:46:26,816 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:26,816 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:26,817 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-linux-setup-guide?action=history
+2026-04-26 18:46:27,339 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-mac-setup-guide, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:27,340 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:27,340 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-mac-setup-guide
+2026-04-26 18:46:27,877 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-mac-setup-guide?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:27,877 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:27,877 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-mac-setup-guide?format=txt
+2026-04-26 18:46:28,385 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-mac-setup-guide?action=diff&version=7, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:28,385 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:28,385 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-mac-setup-guide?action=diff&version=7
+2026-04-26 18:46:28,924 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-mac-setup-guide?version=7, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:28,924 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:28,925 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-mac-setup-guide?version=7
+2026-04-26 18:46:29,454 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-mac-setup-guide?version=6, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:29,454 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:29,454 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-mac-setup-guide?version=6
+2026-04-26 18:46:29,987 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-setup-gdb-on-macos, status <403>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:29,987 - Worker-0 - INFO - raw response is None
+2026-04-26 18:46:30,495 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-mac-setup-guide?action=diff&version=6, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:30,496 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:30,496 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-mac-setup-guide?action=diff&version=6
+2026-04-26 18:46:31,034 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-setup-gdb-on-macos, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:31,034 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:31,034 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-setup-gdb-on-macos
+2026-04-26 18:46:31,570 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-setup-gdb-on-macos?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:31,570 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:31,570 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-setup-gdb-on-macos?format=txt
+2026-04-26 18:46:32,082 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222-2018-fall-setup-gdb-on-macos, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:32,082 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:32,082 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222-2018-fall-setup-gdb-on-macos
+2026-04-26 18:46:35,214 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-setup-gdb-on-macos?action=diff&version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:35,214 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:35,214 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-setup-gdb-on-macos?action=diff&version=1
+2026-04-26 18:46:35,770 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-setup-gdb-on-macos?version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:35,770 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:35,770 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-setup-gdb-on-macos?version=1
+2026-04-26 18:46:36,301 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-setup-gdb-on-macos?version=0, status <404>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:36,301 - Worker-0 - INFO - raw response is None
+2026-04-26 18:46:36,809 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-setup-gdb-on-macos?action=history, status <601>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:36,809 - Worker-0 - INFO - raw response is None
+2026-04-26 18:46:37,317 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-mac-setup-guide?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:37,317 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:37,317 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-mac-setup-guide?action=history
+2026-04-26 18:46:37,847 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-description, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:37,847 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:37,847 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-description
+2026-04-26 18:46:38,457 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-description?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:38,457 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:38,457 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-description?format=txt
+2026-04-26 18:46:38,967 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-description?action=diff&version=4, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:38,967 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:38,967 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-description?action=diff&version=4
+2026-04-26 18:46:39,506 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-description?version=4, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:39,506 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:39,506 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-description?version=4
+2026-04-26 18:46:40,110 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-description?version=3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:40,110 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:40,111 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-description?version=3
+2026-04-26 18:46:40,714 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-description?action=diff&version=3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:40,715 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:40,715 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-description?action=diff&version=3
+2026-04-26 18:46:41,247 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-description?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:41,247 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:41,247 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project1-description?action=history
+2026-04-26 18:46:41,818 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:41,818 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:41,818 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project3
+2026-04-26 18:46:42,387 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222-2018-fall-project3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:42,387 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:42,387 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222-2018-fall-project3
+2026-04-26 18:46:42,919 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222-2018-fall-project3/tree3.svg, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:42,919 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:42,920 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222-2018-fall-project3/tree3.svg
+2026-04-26 18:46:43,439 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222-2018-fall-project3/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:43,439 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:43,439 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222-2018-fall-project3/test.sh
+2026-04-26 18:46:43,948 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222-2018-fall-project3/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:43,948 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:43,948 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222-2018-fall-project3/test.sh
+2026-04-26 18:46:44,497 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222-2018-fall-project3/tree3.svg, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:44,497 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:44,497 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222-2018-fall-project3/tree3.svg
+2026-04-26 18:46:45,018 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:45,018 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:45,018 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall-project2
+2026-04-26 18:46:45,567 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222-2018-fall-project2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:45,567 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:45,567 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs222-2018-fall-project2
+2026-04-26 18:46:46,079 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222-2018-fall-project2/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:46,079 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:46,079 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222-2018-fall-project2/test.sh
+2026-04-26 18:46:46,587 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222-2018-fall-project2/test.sh, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:46,588 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:46,588 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222-2018-fall-project2/test.sh
+2026-04-26 18:46:47,133 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222-2018-fall/setup-mysql.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:47,134 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:47,134 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222-2018-fall/setup-mysql.txt
+2026-04-26 18:46:47,643 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222-2018-fall/setup-mysql.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:47,643 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:47,643 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs222-2018-fall/setup-mysql.txt
+2026-04-26 18:46:48,179 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:48,179 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:48,179 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall?action=history
+2026-04-26 18:46:48,816 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:48,816 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:48,816 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter
+2026-04-26 18:46:49,420 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2019-winter/BatchInsert.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:49,420 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:49,420 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2019-winter/BatchInsert.java
+2026-04-26 18:46:49,928 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2019-winter/BatchInsert.java, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:49,928 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:49,928 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2019-winter/BatchInsert.java
+2026-04-26 18:46:50,506 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter-project1-logging, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:50,506 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:50,506 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter-project1-logging
+2026-04-26 18:46:51,045 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter-project1-logging?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:51,045 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:51,045 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter-project1-logging?format=txt
+2026-04-26 18:46:51,556 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs122b-2019-winter-project1-logging, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:51,556 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:51,556 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs122b-2019-winter-project1-logging
+2026-04-26 18:46:53,679 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter-project1-logging?action=diff&version=39, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:53,679 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:53,679 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter-project1-logging?action=diff&version=39
+2026-04-26 18:46:54,236 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter-project1-logging?version=39, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:54,236 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:54,236 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter-project1-logging?version=39
+2026-04-26 18:46:54,769 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter-project1-logging?version=38, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:54,769 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:54,769 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter-project1-logging?version=38
+2026-04-26 18:46:55,350 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter-project1-logging?action=diff&version=38, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:55,350 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:55,350 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter-project1-logging?action=diff&version=38
+2026-04-26 18:46:55,883 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter-project1-logging?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:55,883 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:55,883 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2019-winter-project1-logging?action=history
+2026-04-26 18:46:56,464 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2019-winter-project1/cs122b-setup-scripts.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:56,464 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:56,464 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2019-winter-project1/cs122b-setup-scripts.txt
+2026-04-26 18:46:56,973 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2019-winter-project1/cs122b-setup-scripts.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:56,973 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:56,973 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2019-winter-project1/cs122b-setup-scripts.txt
+2026-04-26 18:46:57,529 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:57,529 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:57,529 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring
+2026-04-26 18:46:58,107 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:58,107 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:58,107 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring?format=txt
+2026-04-26 18:46:58,811 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring?action=diff&version=123, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:58,811 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:58,811 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring?action=diff&version=123
+2026-04-26 18:46:59,351 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring?version=123, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:59,351 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:59,351 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring?version=123
+2026-04-26 18:46:59,915 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring?version=122, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:46:59,915 - Worker-0 - INFO - response exists!
+2026-04-26 18:46:59,915 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring?version=122
+2026-04-26 18:47:00,479 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring?action=diff&version=122, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:00,479 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:00,479 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring?action=diff&version=122
+2026-04-26 18:47:01,018 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project1-git, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:01,018 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:01,018 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project1-git
+2026-04-26 18:47:01,556 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project1-git?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:01,556 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:01,556 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project1-git?format=txt
+2026-04-26 18:47:02,069 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project1-git?action=diff&version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:02,069 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:02,069 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project1-git?action=diff&version=1
+2026-04-26 18:47:02,641 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project1-git?version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:02,641 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:02,641 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project1-git?version=1
+2026-04-26 18:47:03,168 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project1-git?version=0, status <404>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:03,169 - Worker-0 - INFO - raw response is None
+2026-04-26 18:47:03,677 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project1-git?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:03,677 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:03,677 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project1-git?action=history
+2026-04-26 18:47:04,198 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:04,198 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:04,198 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project1
+2026-04-26 18:47:04,742 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-slack-protocol, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:04,742 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:04,742 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-slack-protocol
+2026-04-26 18:47:05,268 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-slack-protocol?format=txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:05,268 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:05,268 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-slack-protocol?format=txt
+2026-04-26 18:47:05,777 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-slack-protocol?action=diff&version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:05,777 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:05,777 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-slack-protocol?action=diff&version=2
+2026-04-26 18:47:06,313 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-slack-protocol?version=2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:06,314 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:06,314 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-slack-protocol?version=2
+2026-04-26 18:47:06,839 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-slack-protocol?version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:06,839 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:06,839 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-slack-protocol?version=1
+2026-04-26 18:47:07,362 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-slack-protocol?action=diff&version=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:07,362 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:07,362 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-slack-protocol?action=diff&version=1
+2026-04-26 18:47:07,896 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-slack-protocol?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:07,896 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:07,896 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-slack-protocol?action=history
+2026-04-26 18:47:08,452 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project4, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:08,452 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:08,452 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project4
+2026-04-26 18:47:08,984 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:08,984 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:08,984 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project3
+2026-04-26 18:47:09,540 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs221-2019-spring-project3, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:09,540 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:09,541 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs221-2019-spring-project3
+2026-04-26 18:47:12,927 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs221-2019-spring-project3/Team8StressTest.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:12,927 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:12,928 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs221-2019-spring-project3/Team8StressTest.txt
+2026-04-26 18:47:13,437 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs221-2019-spring-project3/Team8StressTest.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:13,437 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:13,437 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs221-2019-spring-project3/Team8StressTest.txt
+2026-04-26 18:47:14,039 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs221-2019-spring-project3/Team9PositionalStressTest.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:14,039 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:14,039 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs221-2019-spring-project3/Team9PositionalStressTest.txt
+2026-04-26 18:47:14,547 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs221-2019-spring-project3/Team9PositionalStressTest.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:14,547 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:14,548 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs221-2019-spring-project3/Team9PositionalStressTest.txt
+2026-04-26 18:47:15,114 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs221-2019-spring-project3/Team10PositionalStressTest.txt, status <607>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:15,114 - Worker-0 - INFO - raw response is None
+2026-04-26 18:47:15,622 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs221-2019-spring-project3/Team10PositionalStressTest.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:15,622 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:15,623 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs221-2019-spring-project3/Team10PositionalStressTest.txt
+2026-04-26 18:47:16,143 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:16,143 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:16,143 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring-project2
+2026-04-26 18:47:16,695 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs221-2019-spring-project2, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:16,695 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:16,695 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/zip-attachment/wiki/cs221-2019-spring-project2
+2026-04-26 18:47:19,139 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs221-2019-spring-project2/Team3StressTest.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:19,139 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:19,139 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs221-2019-spring-project2/Team3StressTest.txt
+2026-04-26 18:47:19,648 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs221-2019-spring-project2/Team3StressTest.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:19,648 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:19,648 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs221-2019-spring-project2/Team3StressTest.txt
+2026-04-26 18:47:20,189 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs221-2019-spring-project2/Team2StressTest.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:20,190 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:20,190 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs221-2019-spring-project2/Team2StressTest.txt
+2026-04-26 18:47:20,707 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs221-2019-spring-project2/Team2StressTest.txt, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:20,707 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:20,707 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs221-2019-spring-project2/Team2StressTest.txt
+2026-04-26 18:47:21,228 - Worker-0 - INFO - Downloaded https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring?action=history, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:21,228 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:21,229 - Worker-0 - INFO - extracting url https://grape.ics.uci.edu/wiki/public/wiki/cs221-2019-spring?action=history
+2026-04-26 18:47:21,949 - Worker-0 - INFO - Downloaded https://chenli.ics.uci.edu/student, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:21,949 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:21,949 - Worker-0 - INFO - extracting url https://chenli.ics.uci.edu/students
+2026-04-26 18:47:22,521 - Worker-0 - INFO - Downloaded http://www.ics.uci.edu/~taewok2, status <500>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:22,521 - Worker-0 - INFO - raw response is None
+2026-04-26 18:47:23,030 - Worker-0 - INFO - Downloaded https://www.cs.uci.edu/nsf-continues-funding-for-asterixdb-with-2m-grant, status <404>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:23,030 - Worker-0 - INFO - raw response is None
+2026-04-26 18:47:23,538 - Worker-0 - INFO - Downloaded https://ds4all.ics.uci.edu/ds4all2025, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:23,539 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:23,539 - Worker-0 - INFO - extracting url https://ds4all.ics.uci.edu/ds4all2025
+2026-04-26 18:47:24,061 - Worker-0 - INFO - Downloaded https://ds4all.ics.uci.edu/summer2025, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:24,061 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:24,061 - Worker-0 - INFO - extracting url https://ds4all.ics.uci.edu/summer2025
+2026-04-26 18:47:24,598 - Worker-0 - INFO - Downloaded https://ds4all.ics.uci.edu, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:24,598 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:24,598 - Worker-0 - INFO - extracting url https://ds4all.ics.uci.edu
+2026-04-26 18:47:25,144 - Worker-0 - INFO - Downloaded https://ds4all.ics.uci.edu/summer2023, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:25,144 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:25,144 - Worker-0 - INFO - extracting url https://ds4all.ics.uci.edu/summer2023
+2026-04-26 18:47:25,743 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/about/kfflab/index.php, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:25,744 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:25,744 - Worker-0 - INFO - extracting url https://ics.uci.edu/facts-figures/ics-mission-history
+2026-04-26 18:47:26,362 - Worker-0 - INFO - Downloaded https://ds4all.ics.uci.edu/summer2024, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:26,362 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:26,362 - Worker-0 - INFO - extracting url https://ds4all.ics.uci.edu/summer2024
+2026-04-26 18:47:26,899 - Worker-0 - INFO - Downloaded https://ds4all.ics.uci.edu/summer2026, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:26,899 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:26,899 - Worker-0 - INFO - extracting url https://ds4all.ics.uci.edu/summer2026
+2026-04-26 18:47:27,431 - Worker-0 - INFO - Downloaded https://chenli.ics.uci.edu/miscellaneous, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:27,431 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:27,431 - Worker-0 - INFO - extracting url https://chenli.ics.uci.edu/miscellaneous
+2026-04-26 18:47:27,964 - Worker-0 - INFO - Downloaded http://www.ics.uci.edu/~chenli/pdf-font-types/index.html, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:27,964 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:27,964 - Worker-0 - INFO - extracting url https://ics.uci.edu/~chenli/pdf-font-types/index.html
+2026-04-26 18:47:28,495 - Worker-0 - INFO - Downloaded https://ics.uci.edu/~chenli/pdf-font-types/solid.fig, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:28,495 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:28,495 - Worker-0 - INFO - extracting url https://ics.uci.edu/~chenli/pdf-font-types/solid.fig
+2026-04-26 18:47:29,004 - Worker-0 - INFO - Downloaded https://ics.uci.edu/~chenli/pdf-font-types/pattern.fig, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:29,004 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:29,004 - Worker-0 - INFO - extracting url https://ics.uci.edu/~chenli/pdf-font-types/pattern.fig
+2026-04-26 18:47:29,514 - Worker-0 - INFO - Downloaded http://www.ics.uci.edu/~chenli/pods05, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:29,514 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:29,514 - Worker-0 - INFO - extracting url https://ics.uci.edu/~chenli/pods05
+2026-04-26 18:47:30,082 - Worker-0 - INFO - Downloaded https://ics.uci.edu/~chenli/pods05/acm_proc_article-sp.cls, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:30,082 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:30,082 - Worker-0 - INFO - extracting url https://ics.uci.edu/~chenli/pods05/acm_proc_article-sp.cls
+2026-04-26 18:47:30,593 - Worker-0 - INFO - Downloaded https://ics.uci.edu/~chenli/pods05/sig-alternate.cls, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:30,593 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:30,593 - Worker-0 - INFO - extracting url https://ics.uci.edu/~chenli/pods05/sig-alternate.cls
+2026-04-26 18:47:31,104 - Worker-0 - INFO - Downloaded https://chenli.ics.uci.edu/past-news, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:31,104 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:31,104 - Worker-0 - INFO - extracting url https://chenli.ics.uci.edu/past-news
+2026-04-26 18:47:31,872 - Worker-0 - INFO - Downloaded https://coronavirustwittermap.ics.uci.edu, status <601>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:31,872 - Worker-0 - INFO - raw response is None
+2026-04-26 18:47:32,381 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:32,381 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:32,381 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu
+2026-04-26 18:47:33,036 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/preliminary-program, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:33,036 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:33,036 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/program-overview
+2026-04-26 18:47:33,729 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/internet, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:33,729 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:33,729 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/internet
+2026-04-26 18:47:34,275 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/venue-information, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:34,275 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:34,275 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/venue-information
+2026-04-26 18:47:34,823 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/visa-information, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:34,823 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:34,823 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/visa-information
+2026-04-26 18:47:35,373 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/travel-awards, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:35,373 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:35,373 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/travel-awards
+2026-04-26 18:47:35,920 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/format-registration, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:35,920 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:35,920 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/format-registration
+2026-04-26 18:47:36,515 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/hardbd-active-2023, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:36,515 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:36,515 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/hardbd-active-2023
+2026-04-26 18:47:37,059 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/astride-2023, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:37,059 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:37,059 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/astride-2023
+2026-04-26 18:47:37,603 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/dasc-2023, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:37,603 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:37,603 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/dasc-2023
+2026-04-26 18:47:38,149 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/smdb-2023, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:38,149 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:38,149 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/smdb-2023
+2026-04-26 18:47:38,692 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/dbml-2023, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:38,692 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:38,692 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/dbml-2023
+2026-04-26 18:47:39,235 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/bdafc-2023, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:39,235 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:39,236 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/bdafc-2023
+2026-04-26 18:47:39,777 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/decor-2023, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:39,778 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:39,778 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/decor-2023
+2026-04-26 18:47:40,321 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/workshops, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:40,321 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:40,321 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/workshops
+2026-04-26 18:47:40,869 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/awards, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:40,870 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:40,870 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/awards
+2026-04-26 18:47:41,481 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/diversity-program, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:41,482 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:41,482 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/diversity-program
+2026-04-26 18:47:42,035 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/keynotes, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:42,035 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:42,035 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/keynotes
+2026-04-26 18:47:42,596 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/tkde-poster-track, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:42,596 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:42,596 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/tkde-poster-track
+2026-04-26 18:47:43,183 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/papers-special-track, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:43,184 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:43,184 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/papers-special-track
+2026-04-26 18:47:43,735 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/ph-d-symposium-track, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:43,735 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:43,735 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/ph-d-symposium-track
+2026-04-26 18:47:44,283 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/papers-demonstration-track, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:44,283 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:44,284 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/papers-demonstration-track
+2026-04-26 18:47:44,836 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/tutorial-track, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:44,836 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:44,836 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/tutorial-track
+2026-04-26 18:47:45,393 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/papers-industry-and-applications-track, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:45,393 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:45,393 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/papers-industry-and-applications-track
+2026-04-26 18:47:45,969 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/papers-research-track, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:45,970 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:45,970 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/papers-research-track
+2026-04-26 18:47:46,655 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/detailed-program, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:46,655 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:46,655 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/detailed-program
+2026-04-26 18:47:47,646 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/program-overview, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:47,647 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:47,647 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/program-overview
+2026-04-26 18:47:48,294 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/ph-d-symposium, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:48,295 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:48,295 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/ph-d-symposium
+2026-04-26 18:47:48,844 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/tkde-poster-session-track, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:48,844 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:48,845 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/tkde-poster-session-track
+2026-04-26 18:47:49,393 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/demonstration-track, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:49,393 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:49,393 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/demonstration-track
+2026-04-26 18:47:49,942 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/tutorial-proposals-track, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:49,942 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:49,942 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/tutorial-proposals-track
+2026-04-26 18:47:50,491 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/call-for-workshops, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:50,491 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:50,491 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/call-for-workshops
+2026-04-26 18:47:51,044 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/industry-and-applications-track, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:51,044 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:51,044 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/industry-and-applications-track
+2026-04-26 18:47:51,595 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/special-track, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:51,595 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:51,595 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/special-track
+2026-04-26 18:47:52,145 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/research-papers-track, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:52,145 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:52,145 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/research-papers-track
+2026-04-26 18:47:52,749 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/volunteers, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:52,749 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:52,749 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/volunteers
+2026-04-26 18:47:53,301 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/sponsors, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:53,301 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:53,301 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/sponsors
+2026-04-26 18:47:53,854 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/sponsorship-opportunities, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:53,854 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:53,854 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/sponsorship-opportunities
+2026-04-26 18:47:54,403 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/code-of-conduct, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:54,403 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:54,403 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/code-of-conduct
+2026-04-26 18:47:54,950 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/code-of-conduct/event@ieee.org, status <404>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:54,950 - Worker-0 - INFO - raw response is None
+2026-04-26 18:47:55,459 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/diversity-and-inclusion, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:55,459 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:55,459 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/diversity-and-inclusion
+2026-04-26 18:47:56,015 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/demonstration-track-program-committee, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:56,015 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:56,015 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/demonstration-track-program-committee
+2026-04-26 18:47:56,562 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/industry-track-program-committee, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:56,562 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:56,562 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/industry-track-program-committee
+2026-04-26 18:47:57,117 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/research-program-committee, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:57,118 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:57,118 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/research-program-committee
+2026-04-26 18:47:57,683 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/organizing-committee, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:57,683 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:57,684 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/organizing-committee
+2026-04-26 18:47:58,249 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/important-dates, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:58,249 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:58,249 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/important-dates
+2026-04-26 18:47:58,809 - Worker-0 - INFO - Downloaded https://icde2023.ics.uci.edu/general-info, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:58,810 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:58,810 - Worker-0 - INFO - extracting url https://icde2023.ics.uci.edu/general-info
+2026-04-26 18:47:59,356 - Worker-0 - INFO - Downloaded https://www.ics.uci.edu/community/news/view_news?id=2356, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:59,356 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:59,356 - Worker-0 - INFO - extracting url https://ics.uci.edu/archive-news/?id=2356
+2026-04-26 18:47:59,964 - Worker-0 - INFO - Downloaded https://ds4all.ics.uci.edu/Data, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:47:59,964 - Worker-0 - INFO - response exists!
+2026-04-26 18:47:59,964 - Worker-0 - INFO - extracting url https://ds4all.ics.uci.edu/data-science-for-all-2024
+2026-04-26 18:48:00,495 - Worker-0 - INFO - Downloaded https://ds4all.ics.uci.edu/ds4all2024, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:00,495 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:00,495 - Worker-0 - INFO - extracting url https://ds4all.ics.uci.edu/ds4all2024
+2026-04-26 18:48:01,061 - Worker-0 - INFO - Downloaded https://ds4all.ics.uci.edu/ds4all2023, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:01,061 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:01,061 - Worker-0 - INFO - extracting url https://ds4all.ics.uci.edu/ds4all2023
+2026-04-26 18:48:01,582 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2024/08/07/faculty-and-staff-honored-at-2024-ics-awards-celebration, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:01,582 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:01,582 - Worker-0 - INFO - extracting url https://ics.uci.edu/2024/08/07/faculty-and-staff-honored-at-2024-ics-awards-celebration
+2026-04-26 18:48:02,239 - Worker-0 - INFO - Downloaded https://ics.uci.edu/tag/kylie-peppler, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:02,239 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:02,239 - Worker-0 - INFO - extracting url https://ics.uci.edu/tag/kylie-peppler
+2026-04-26 18:48:02,874 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2020/12/17/mixed-reality-kylie-peppler, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:02,874 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:02,874 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:03,386 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2021/03/29/cll-to-explore-stem-learning-and-career-development, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:03,386 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:03,386 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:03,899 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2022/09/20/recrafting-computer-science-1-5m-nsf-grant-leads-to-new-course-offering, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:03,899 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:03,899 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:04,411 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2022/10/13/rochester-institute-of-technology-faculty-researchers-secure-another-workforce-development-grant-to-support-growth-of-machinists-in-manufacturing, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:04,412 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:04,412 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:04,924 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2023/05/01/philanthropy-news-digest-the-connected-arts-learning-framework-an-expanded-view-of-the-purposes-and-possibilities-for-arts-learning, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:04,924 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:04,924 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:05,437 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2023/05/31/aistory-leveraging-generative-ai-for-culturally-responsive-learning, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:05,437 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:05,437 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:05,949 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2023/08/16/recrafting-soft-technologies-course-offers-tangible-lessons-in-computer-science, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:05,949 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:05,949 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:06,461 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2024/09/23/storyai-app-engages-students-in-learning, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:06,461 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:06,462 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:06,975 - Worker-0 - INFO - Downloaded https://ics.uci.edu/2025/01/31/kylie-peppler-explores-educational-uses-of-generative-ai-as-fate-fellow, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:06,975 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:06,975 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:07,487 - Worker-0 - INFO - Downloaded https://ics.uci.edu/tag/jim-mckenzie-staff-leadership, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:07,487 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:07,487 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:07,999 - Worker-0 - INFO - Downloaded https://ics.uci.edu/tag/jason-king, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:07,999 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:07,999 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:08,514 - Worker-0 - INFO - Downloaded https://ics.uci.edu/tag/ics-faculty-and-staff-awards, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:08,514 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:08,514 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:09,026 - Worker-0 - INFO - Downloaded https://ics.uci.edu/tag/gloria-mark, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:09,026 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:09,026 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:09,539 - Worker-0 - INFO - Downloaded https://ics.uci.edu/tag/deans-award, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:09,539 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:09,539 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:10,051 - Worker-0 - INFO - Downloaded https://ics.uci.edu/tag/daniel-epstein, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:10,051 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:10,051 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:10,563 - Worker-0 - INFO - Downloaded https://ics.uci.edu/tag/chen-li, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:10,563 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:10,563 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:11,076 - Worker-0 - INFO - Downloaded https://ics.uci.edu/tag/babak-shahbaba, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:11,076 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:11,076 - Worker-0 - INFO - extracting url https://blocked.iplocationblock.com
+2026-04-26 18:48:11,589 - Worker-0 - INFO - Downloaded https://ics.uci.edu/people/daniel-epstein, status <608>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:11,589 - Worker-0 - INFO - raw response is None
+2026-04-26 18:48:12,097 - Worker-0 - INFO - Downloaded https://ics.uci.edu/people/chen-li, status <608>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:12,097 - Worker-0 - INFO - raw response is None
+2026-04-26 18:48:12,605 - Worker-0 - INFO - Downloaded https://ics.uci.edu/people/kylie-peppler, status <608>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:12,605 - Worker-0 - INFO - raw response is None
+2026-04-26 18:48:13,114 - Worker-0 - INFO - Downloaded https://ics.uci.edu/people/gloria-mark, status <608>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:13,114 - Worker-0 - INFO - raw response is None
+2026-04-26 18:48:13,622 - Worker-0 - INFO - Downloaded https://ics.uci.edu/people/jason-king, status <608>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:13,622 - Worker-0 - INFO - raw response is None
+2026-04-26 18:48:14,131 - Worker-0 - INFO - Downloaded https://chenli.ics.uci.edu/teaching, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:14,131 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:14,131 - Worker-0 - INFO - extracting url https://chenli.ics.uci.edu/teaching
+2026-04-26 18:48:14,674 - Worker-0 - INFO - Downloaded https://chenli.ics.uci.edu/students, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:14,674 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:14,675 - Worker-0 - INFO - extracting url https://chenli.ics.uci.edu/students
+2026-04-26 18:48:15,246 - Worker-0 - INFO - Downloaded https://chenli.ics.uci.edu/publications, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:15,247 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:15,247 - Worker-0 - INFO - extracting url https://chenli.ics.uci.edu/publications
+2026-04-26 18:48:15,874 - Worker-0 - INFO - Downloaded http://www.ics.uci.edu/~dnazip, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:15,874 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:15,874 - Worker-0 - INFO - extracting url https://ics.uci.edu/~dnazip
+2026-04-26 18:48:16,392 - Worker-0 - INFO - Downloaded https://chenli.ics.uci.edu/research, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:16,392 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:16,392 - Worker-0 - INFO - extracting url https://chenli.ics.uci.edu/research
+2026-04-26 18:48:16,938 - Worker-0 - INFO - Downloaded http://asterix.ics.uci.edu/fuzzyjoin, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:16,938 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:16,938 - Worker-0 - INFO - extracting url http://asterix.ics.uci.edu/fuzzyjoin
+2026-04-26 18:48:17,469 - Worker-0 - INFO - Downloaded http://asterix.ics.uci.edu/fuzzyjoin/CHANGELOG.html, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:17,469 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:17,469 - Worker-0 - INFO - extracting url http://asterix.ics.uci.edu/fuzzyjoin/CHANGELOG.html
+2026-04-26 18:48:17,985 - Worker-0 - INFO - Downloaded http://asterix.ics.uci.edu/fuzzyjoin/FAQ.html, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:17,985 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:17,986 - Worker-0 - INFO - extracting url http://asterix.ics.uci.edu/fuzzyjoin/FAQ.html
+2026-04-26 18:48:18,505 - Worker-0 - INFO - Downloaded http://asterix.ics.uci.edu/fuzzyjoin/README.html, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:18,506 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:18,506 - Worker-0 - INFO - extracting url http://asterix.ics.uci.edu/fuzzyjoin/README.html
+2026-04-26 18:48:19,057 - Worker-0 - INFO - Downloaded http://www.ics.uci.edu/~salsubai/rstartree.html, status <500>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:19,058 - Worker-0 - INFO - raw response is None
+2026-04-26 18:48:19,566 - Worker-0 - INFO - Downloaded https://chenli.ics.uci.edu/biography, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:19,566 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:19,566 - Worker-0 - INFO - extracting url https://chenli.ics.uci.edu/biography
+2026-04-26 18:48:20,160 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/xiaodong-zhang-the-ohio-state-university-data-management-interactions-with-computer-architecture-and-systems, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:20,160 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:20,160 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/xiaodong-zhang-the-ohio-state-university-data-management-interactions-with-computer-architecture-and-systems
+2026-04-26 18:48:20,733 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/abhishek-singh-talk, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:20,734 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:20,734 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/abhishek-singh-talk
+2026-04-26 18:48:21,307 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/shengquan-ni-icedtea-efficient-and-responsive-time-travel-debugging-in-dataflow-systems, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:21,307 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:21,307 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/shengquan-ni-icedtea-efficient-and-responsive-time-travel-debugging-in-dataflow-systems
+2026-04-26 18:48:21,881 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/binbin-gu-tbd, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:21,881 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:21,881 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/binbin-gu-tbd
+2026-04-26 18:48:22,454 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/sainyam-galhotra-cornell, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:22,454 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:22,454 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/sainyam-galhotra-cornell
+2026-04-26 18:48:23,031 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talk, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:23,031 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:23,031 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talk
+2026-04-26 18:48:23,623 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talk/list/?eventDisplay=past, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:23,623 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:23,623 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talk/list/?eventDisplay=past
+2026-04-26 18:48:24,518 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talk/list/?eventDisplay=past&outlook-ical=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:24,518 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:24,518 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talk/list/?eventDisplay=past&outlook-ical=1
+2026-04-26 18:48:25,102 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talk/list/?eventDisplay=past&ical=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:25,102 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:25,102 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talk/list/?eventDisplay=past&ical=1
+2026-04-26 18:48:25,686 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/aditya-parameswaran-berkeley-enhance-dont-replace-a-recipe-for-success-in-data-tooling, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:25,686 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:25,686 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/aditya-parameswaran-berkeley-enhance-dont-replace-a-recipe-for-success-in-data-tooling
+2026-04-26 18:48:26,260 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/arnab-nandi-osu-data-exploration-in-a-camera-first-world-query-and-result-challenges, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:26,260 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:26,260 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/arnab-nandi-osu-data-exploration-in-a-camera-first-world-query-and-result-challenges
+2026-04-26 18:48:26,836 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/nika-mansouri-ghiasi-eth-storage-centric-computing-for-genomics-and-metagenomics, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:26,836 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:26,836 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/nika-mansouri-ghiasi-eth-storage-centric-computing-for-genomics-and-metagenomics
+2026-04-26 18:48:27,410 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/yannis-papakonstantinou-google-vector-search-and-database, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:27,410 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:27,410 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/yannis-papakonstantinou-google-vector-search-and-database
+2026-04-26 18:48:27,985 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/michael-jungmair-tu-munich-a-compiler-centric-query-engine-design-for-mixed-workloads-and-modern-hardware, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:27,985 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:27,985 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/michael-jungmair-tu-munich-a-compiler-centric-query-engine-design-for-mixed-workloads-and-modern-hardware
+2026-04-26 18:48:28,586 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/mohammad-sadoghi-uc-davis-the-journey-of-building-global-scale-sustainable-blockchain-fabric, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:28,586 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:28,586 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/mohammad-sadoghi-uc-davis-the-journey-of-building-global-scale-sustainable-blockchain-fabric
+2026-04-26 18:48:29,161 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/pat-helland-salesforce-scalable-oltp-in-the-cloud-whats-the-big-deal, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:29,161 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:29,162 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/pat-helland-salesforce-scalable-oltp-in-the-cloud-whats-the-big-deal
+2026-04-26 18:48:29,735 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/mike-heddes-efficient-cardinality-estimation-of-multi-join-queries-using-count-sketches, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:29,735 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:29,735 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/mike-heddes-efficient-cardinality-estimation-of-multi-join-queries-using-count-sketches
+2026-04-26 18:48:30,306 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/xinyuan-lin-data-science-tasks-implemented-with-scripts-versus-gui-based-workflows-the-good-the-bad-and-the-ugly, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:30,306 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:30,306 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/xinyuan-lin-data-science-tasks-implemented-with-scripts-versus-gui-based-workflows-the-good-the-bad-and-the-ugly
+2026-04-26 18:48:30,878 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/mohammed-al-kateb-amazon-redshift-the-evolution-of-amazon-redshift, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:30,878 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:30,878 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/mohammed-al-kateb-amazon-redshift-the-evolution-of-amazon-redshift
+2026-04-26 18:48:31,491 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/juncheng-fang-immortalchopper-real-time-and-resilient-distributed-transactions-in-the-edge-cloud, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:31,491 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:31,491 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/juncheng-fang-immortalchopper-real-time-and-resilient-distributed-transactions-in-the-edge-cloud
+2026-04-26 18:48:32,062 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/lukasz-golab-university-of-waterloo-understanding-models-and-the-data-they-learn-from, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:32,062 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:32,062 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/lukasz-golab-university-of-waterloo-understanding-models-and-the-data-they-learn-from
+2026-04-26 18:48:32,635 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/yinan-zhou-spendabledb-a-utxo-based-decentralized-database, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:32,635 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:32,635 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/yinan-zhou-spendabledb-a-utxo-based-decentralized-database
+2026-04-26 18:48:33,249 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/bratin-saha-aws-amazon-scaling-generative-ai-in-the-enterprise, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:33,249 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:33,249 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/bratin-saha-aws-amazon-scaling-generative-ai-in-the-enterprise
+2026-04-26 18:48:33,820 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/yunyan-ding-efficient-mouse-brain-image-processing-using-collaborative-data-workflows-on-texera, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:33,820 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:33,820 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/yunyan-ding-efficient-mouse-brain-image-processing-using-collaborative-data-workflows-on-texera
+2026-04-26 18:48:34,391 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/raul-castro-fernandez-u-chicago-on-data-ecology-data-markets-the-value-of-data-and-dataflow-governance, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:34,391 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:34,391 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/raul-castro-fernandez-u-chicago-on-data-ecology-data-markets-the-value-of-data-and-dataflow-governance
+2026-04-26 18:48:34,964 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/joseph-hellerstein-uc-berkeley-hydro-a-compiler-stack-for-distributed-programs, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:34,964 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:34,964 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/joseph-hellerstein-uc-berkeley-hydro-a-compiler-stack-for-distributed-programs
+2026-04-26 18:48:35,539 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/shengquan-ni-supporting-time-travel-debugging-in-texera, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:35,539 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:35,539 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/shengquan-ni-supporting-time-travel-debugging-in-texera
+2026-04-26 18:48:36,109 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/volker-markl-tu-berlin-mosaics-of-big-data-database-systems-and-information-management-trends-and-a-vision, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:36,109 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:36,110 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/volker-markl-tu-berlin-mosaics-of-big-data-database-systems-and-information-management-trends-and-a-vision
+2026-04-26 18:48:36,722 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/henry-f-korth-lehigh-university-blockchain-computer-science-foundations-positive-social-and-business-impact-and-research-opportunities, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:36,723 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:36,723 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/henry-f-korth-lehigh-university-blockchain-computer-science-foundations-positive-social-and-business-impact-and-research-opportunities
+2026-04-26 18:48:37,297 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/shahram-ghandeharizadeh-intelligent-3d-multimedia-displays-using-flying-light-specks, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:37,297 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:37,298 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/shahram-ghandeharizadeh-intelligent-3d-multimedia-displays-using-flying-light-specks
+2026-04-26 18:48:37,872 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/vishal-chakraborty-much-ado-about-data-undo-semantically-meaningful-data-erasure, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:37,872 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:37,873 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/vishal-chakraborty-much-ado-about-data-undo-semantically-meaningful-data-erasure
+2026-04-26 18:48:38,506 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/nada-lahjouji-probe-proportioning-privacy-budget-for-complex-exploratory-decision-support, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:38,506 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:38,506 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/nada-lahjouji-probe-proportioning-privacy-budget-for-complex-exploratory-decision-support
+2026-04-26 18:48:39,077 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/ken-birman-cornell-cascade-a-platform-for-fast-edge-intelligence, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:39,077 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:39,077 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/ken-birman-cornell-cascade-a-platform-for-fast-edge-intelligence
+2026-04-26 18:48:39,650 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/boon-thau-looupenn-towards-full-stack-adaptivity-in-permissioned-blockchain-systems, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:39,651 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:39,651 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/boon-thau-looupenn-towards-full-stack-adaptivity-in-permissioned-blockchain-systems
+2026-04-26 18:48:40,225 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/suyash-guptauc-berkeley-dissecting-bft-consensus-in-trusted-components-we-trust, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:40,225 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:40,225 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/suyash-guptauc-berkeley-dissecting-bft-consensus-in-trusted-components-we-trust
+2026-04-26 18:48:40,859 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/removing-the-a-in-dag-navigational-queries-in-hyracks, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:40,860 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:40,860 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/removing-the-a-in-dag-navigational-queries-in-hyracks
+2026-04-26 18:48:41,481 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/when-apache-asterixdb-hit-an-apache-iceberg, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:41,481 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:41,481 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/when-apache-asterixdb-hit-an-apache-iceberg
+2026-04-26 18:48:42,055 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/saeed-kargar-hamming-tree-the-case-for-energy-aware-indexing-for-nvms, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:42,055 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:42,055 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/saeed-kargar-hamming-tree-the-case-for-energy-aware-indexing-for-nvms
+2026-04-26 18:48:42,631 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/qiushi-bai-improving-sql-performance-using-middleware-based-query-rewriting, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:42,631 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:42,631 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/qiushi-bai-improving-sql-performance-using-middleware-based-query-rewriting
+2026-04-26 18:48:43,202 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/yiming-lin-auto-bi-automatically-build-bi-models-leveraging-local-join-prediction-and-global-schema-graph, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:43,202 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:43,202 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/yiming-lin-auto-bi-automatically-build-bi-models-leveraging-local-join-prediction-and-global-schema-graph
+2026-04-26 18:48:43,774 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/the-new-dbfication-of-ml-ai, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:43,774 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:43,774 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/the-new-dbfication-of-ml-ai
+2026-04-26 18:48:44,347 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/farzad-habibi-metastable-failures-in-consensus-algorithms, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:44,347 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:44,348 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/farzad-habibi-metastable-failures-in-consensus-algorithms
+2026-04-26 18:48:44,919 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/quishi-bai-maliva-using-machine-learning-to-rewrite-visualization-queries-under-time-constraints, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:44,919 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:44,919 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/quishi-bai-maliva-using-machine-learning-to-rewrite-visualization-queries-under-time-constraints
+2026-04-26 18:48:45,489 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/zuozhi-wang-texera-a-system-for-collaborative-and-interactive-data-analytics-using-workflows-phd-final-defense, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:45,490 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:45,490 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/zuozhi-wang-texera-a-system-for-collaborative-and-interactive-data-analytics-using-workflows-phd-final-defense
+2026-04-26 18:48:46,060 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/c-mohan-a-survey-of-cloud-database-systems, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:46,060 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:46,060 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/c-mohan-a-survey-of-cloud-database-systems
+2026-04-26 18:48:46,634 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/fangqi-liu-dome-drone-assisted-monitoring-of-emergent-events-for-wildland-fire-resilience, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:46,634 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:46,634 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/fangqi-liu-dome-drone-assisted-monitoring-of-emergent-events-for-wildland-fire-resilience
+2026-04-26 18:48:47,241 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/photon-how-to-think-vectorized, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:47,241 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:47,241 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/photon-how-to-think-vectorized
+2026-04-26 18:48:47,812 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/babak-salimi-ucsd-certifying-the-fairness-of-predictive-models-in-the-face-of-selection-bias, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:47,812 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:47,813 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/babak-salimi-ucsd-certifying-the-fairness-of-predictive-models-in-the-face-of-selection-bias
+2026-04-26 18:48:48,386 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/shanshan-han-veil-storage-and-communication-efficient-volume-hiding-algorithms, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:48,386 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:48,386 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/shanshan-han-veil-storage-and-communication-efficient-volume-hiding-algorithms
+2026-04-26 18:48:48,959 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/yiming-lin-quip-query-driven-during-missing-value-imputation, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:48,959 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:48,959 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/yiming-lin-quip-query-driven-during-missing-value-imputation
+2026-04-26 18:48:49,530 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/aaron-elmore-crocodiledb-resource-efficient-database-execution-cs-seminar, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:49,530 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:49,530 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/aaron-elmore-crocodiledb-resource-efficient-database-execution-cs-seminar
+2026-04-26 18:48:50,101 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/aaron-elmore-adventures-in-database-compression, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:50,101 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:50,101 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/aaron-elmore-adventures-in-database-compression
+2026-04-26 18:48:50,672 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/tung-chun-chang-smartparcels-cross-layer-iot-planning-for-smart-communities, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:50,672 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:50,672 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/tung-chun-chang-smartparcels-cross-layer-iot-planning-for-smart-communities
+2026-04-26 18:48:51,244 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/andrew-chio-smartspec-customizable-smart-space-datasets-via-event-driven-simulations, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:51,244 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:51,244 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/andrew-chio-smartspec-customizable-smart-space-datasets-via-event-driven-simulations
+2026-04-26 18:48:51,815 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/glenn-galvizo-navigational-pattern-matching-w-graphix, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:51,815 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:51,815 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/glenn-galvizo-navigational-pattern-matching-w-graphix
+2026-04-26 18:48:52,387 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/peeyush-gupta-a-demonstration-of-tippersdb, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:52,387 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:52,387 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/peeyush-gupta-a-demonstration-of-tippersdb
+2026-04-26 18:48:52,992 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/juncheng-fang-pelopartition-improving-blockchain-resilience-to-partitioning-by-sharding, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:52,993 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:52,993 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/juncheng-fang-pelopartition-improving-blockchain-resilience-to-partitioning-by-sharding
+2026-04-26 18:48:53,563 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/speaker-abhishek-singh-wedgeblock-an-off-chain-secure-logging-platform-for-blockchain-applications, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:53,563 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:53,563 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/speaker-abhishek-singh-wedgeblock-an-off-chain-secure-logging-platform-for-blockchain-applications
+2026-04-26 18:48:54,135 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/xiaozhen-liu-demonstration-of-collaborative-and-interactive-workflow-based-data-analytics-in-texera, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:54,135 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:54,135 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/xiaozhen-liu-demonstration-of-collaborative-and-interactive-workflow-based-data-analytics-in-texera
+2026-04-26 18:48:54,705 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/qiushi-bai-querybooster-improving-sql-performance-using-middleware-services-for-human-centered-query-rewriting-demo, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:54,705 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:54,705 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/qiushi-bai-querybooster-improving-sql-performance-using-middleware-services-for-human-centered-query-rewriting-demo
+2026-04-26 18:48:55,277 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/sadeem-alsudais-shengquan-ni-drove-tracking-execution-results-of-workflows-on-large-data, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:55,277 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:55,277 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/sadeem-alsudais-shengquan-ni-drove-tracking-execution-results-of-workflows-on-large-data
+2026-04-26 18:48:55,848 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/isg-talks-welcome-back, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:55,848 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:55,848 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/isg-talks-welcome-back
+2026-04-26 18:48:56,418 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/event/anand-deshpahde-persistent-technologies-how-to-build-your-own-business, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:56,418 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:56,419 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/event/anand-deshpahde-persistent-technologies-how-to-build-your-own-business
+2026-04-26 18:48:56,997 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/wp-login.php?redirect_to=https%3A%2F%2Fisg.ics.uci.edu%2Fevent%2Fanand-deshpahde-persistent-technologies-how-to-build-your-own-business%2F, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:56,997 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:56,997 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/wp-login.php?redirect_to=https%3A%2F%2Fisg.ics.uci.edu%2Fevent%2Fanand-deshpahde-persistent-technologies-how-to-build-your-own-business%2F
+2026-04-26 18:48:57,516 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/wp-login.php?action=lostpassword, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:57,516 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:57,516 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/wp-login.php?action=lostpassword
+2026-04-26 18:48:58,031 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/wp-login.php, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:58,031 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:58,031 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/wp-login.php
+2026-04-26 18:48:58,551 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:58,551 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:58,551 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talks
+2026-04-26 18:48:59,145 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/list/?eventDisplay=past, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:59,145 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:59,145 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talks/list/?eventDisplay=past
+2026-04-26 18:48:59,730 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/list/?eventDisplay=past&outlook-ical=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:48:59,730 - Worker-0 - INFO - response exists!
+2026-04-26 18:48:59,730 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talks/list/?eventDisplay=past&outlook-ical=1
+2026-04-26 18:49:00,243 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/list/?eventDisplay=past&ical=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:00,244 - Worker-0 - INFO - response exists!
+2026-04-26 18:49:00,244 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talks/list/?eventDisplay=past&ical=1
+2026-04-26 18:49:00,759 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/month, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:00,759 - Worker-0 - INFO - response exists!
+2026-04-26 18:49:00,760 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talks/month
+2026-04-26 18:49:01,485 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/month/?outlook-ical=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:01,485 - Worker-0 - INFO - raw response exists
+2026-04-26 18:49:01,993 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/month/?ical=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:01,993 - Worker-0 - INFO - raw response exists
+2026-04-26 18:49:02,509 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/2026-03, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:02,509 - Worker-0 - INFO - response exists!
+2026-04-26 18:49:02,510 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talks/2026-03
+2026-04-26 18:49:03,228 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/2026-03/?outlook-ical=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:03,229 - Worker-0 - INFO - raw response exists
+2026-04-26 18:49:03,737 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/2026-03/?ical=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:03,737 - Worker-0 - INFO - raw response exists
+2026-04-26 18:49:04,248 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/2026-04, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:04,248 - Worker-0 - INFO - response exists!
+2026-04-26 18:49:04,248 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talks/2026-04
+2026-04-26 18:49:04,939 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/list/?tribe-bar-date=2026-04-01, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:04,939 - Worker-0 - INFO - response exists!
+2026-04-26 18:49:04,939 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talks/list/?tribe-bar-date=2026-04-01
+2026-04-26 18:49:09,600 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/list/?outlook-ical=1&tribe-bar-date=2026-04-01, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:09,600 - Worker-0 - INFO - raw response exists
+2026-04-26 18:49:14,114 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/list/?ical=1&tribe-bar-date=2026-04-01, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:14,114 - Worker-0 - INFO - raw response exists
+2026-04-26 18:49:18,631 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/list/?eventDisplay=past&tribe-bar-date=2026-04-01, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:18,631 - Worker-0 - INFO - response exists!
+2026-04-26 18:49:18,631 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talks/list/?eventDisplay=past&tribe-bar-date=2026-04-01
+2026-04-26 18:49:23,218 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/list/?eventDisplay=past&ical=1&tribe-bar-date=2026-04-01, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:23,218 - Worker-0 - INFO - response exists!
+2026-04-26 18:49:23,219 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talks/list/?eventDisplay=past&ical=1&tribe-bar-date=2026-04-01
+2026-04-26 18:49:23,734 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/2026-02, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:23,734 - Worker-0 - INFO - response exists!
+2026-04-26 18:49:23,735 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talks/2026-02
+2026-04-26 18:49:24,425 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/2026-02/?outlook-ical=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:24,425 - Worker-0 - INFO - raw response exists
+2026-04-26 18:49:24,933 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/2026-02/?ical=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:24,934 - Worker-0 - INFO - raw response exists
+2026-04-26 18:49:25,444 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/2026-01, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:25,444 - Worker-0 - INFO - response exists!
+2026-04-26 18:49:25,444 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talks/2026-01
+2026-04-26 18:49:26,134 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/2026-01/?outlook-ical=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:26,134 - Worker-0 - INFO - raw response exists
+2026-04-26 18:49:26,642 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/2026-01/?ical=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:26,642 - Worker-0 - INFO - raw response exists
+2026-04-26 18:49:27,152 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/2025-12, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:27,152 - Worker-0 - INFO - response exists!
+2026-04-26 18:49:27,152 - Worker-0 - INFO - extracting url https://isg.ics.uci.edu/events/tag/talks/2025-12
+2026-04-26 18:49:27,897 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/2025-12/?outlook-ical=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:27,897 - Worker-0 - INFO - raw response exists
+2026-04-26 18:49:28,405 - Worker-0 - INFO - Downloaded https://isg.ics.uci.edu/events/tag/talks/2025-12/?ical=1, status <200>, using cache ('styx.ics.uci.edu', 9002).
+2026-04-26 18:49:28,405 - Worker-0 - INFO - raw response exists
