@@ -35,6 +35,8 @@ def parse(html_text: str)->list:
             if (not chr):
                 break
             elif (chr in SEPARATORS):
+                if (currentString==""):
+                    continue
                 tokens.append(currentString)
                 currentString = ""
             elif (chr in string.punctuation):
