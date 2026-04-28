@@ -31,7 +31,7 @@ compiled_regex: list[re.Pattern] = list()
 def scraper(url, resp, logger = None):
     """called by crawler for each fetched page. returns only valid links"""
     links = extract_next_links(url, resp, logger)
-    return [link for link in links if is_valid(link)]
+    return [link for link in links if is_valid(link, logger)]
 
 def extract_next_links(url, resp, logger = None):
     # Implementation required.
@@ -141,13 +141,13 @@ def is_trap(url, logger = None):
     more detailed regex-based trap detection
     """
 
-    if compiled_regex:
+    if not compiled_regex:
+        if logger:
+            logger.info("Compiling regex for the first time.")
         for trap in TRAP_REGEX:
             compiled_regex.append(re.compile(trap))
 
     for pattern in compiled_regex:
-        if logger:
-            logger.info("Compiling regex for the first time.")
         if pattern.match(url):
             return True
 
@@ -163,7 +163,7 @@ def in_ban_list(parse_url):
 
 #### Validity checker :3 ##################################################
 
-def is_valid(url):
+def is_valid(url, logger = None):
     # Decide whether to crawl this url or not. 
     # If you decide to crawl it, return True; otherwise return False.
     # There are already some conditions that return False.
@@ -187,7 +187,7 @@ def is_valid(url):
             return False
         
         # check if url is a trap
-        if is_trap(url):
+        if is_trap(url, logger):
             return False
 
         if in_ban_list(url):
