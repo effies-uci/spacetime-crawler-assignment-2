@@ -33,7 +33,6 @@ def write_total_report(tokenFreq:dict, uniqueUrls:set, subdomains:dict, pageLens
     sorted_tokens = [(k, v) for k, v in sorted(tokenFreq.items(), key=lambda item: item[1], reverse=True)]
 
     with(open(f"reports/{reportName}.txt", 'a', encoding="UTF-8")) as file:
-
         file.write("CRAWLER END OF RUN REPORT===========\n")
 
         file.write(f"Number of unique pages visited: {len(uniqueUrls)} pages\n")
