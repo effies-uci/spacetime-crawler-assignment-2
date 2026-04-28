@@ -23,5 +23,8 @@ class Crawler(object):
         self.join()
 
     def join(self):
+        index = 1
         for worker in self.workers:
+            self.logger.info(f"Merging thread {index}")
+            index += 1
             worker.join()
