@@ -23,9 +23,7 @@ def write_page_report(tokenFreq:dict, pageName:str):
         file.write("\n")
 
 def write_total_report(tokenFreq:dict, uniqueUrls:set, subdomains:dict, pageLens:dict):
-
-    sort_dict = dict(sorted(tokenFreq.items(), key=lambda item: item[1]))
-
+    sorted_tokens = [(k, v) for k, v in sorted(tokenFreq.items(), key=lambda item: item[1], reverse=True)]
 
     with(open(f"reports/{reportName}.txt", 'a', encoding="UTF-8")) as file:
 
@@ -35,7 +33,7 @@ def write_total_report(tokenFreq:dict, uniqueUrls:set, subdomains:dict, pageLens
 
         file.write(f"{NUMFREQWORDS} Most Frequent Words:\n")
         for i in range(NUMFREQWORDS):
-            file.write(f"\t{sort_dict.keys()[i]} - {sort_dict[sort_dict.keys()[i]]} occurences\n")
+            file.write(f"\t{sorted_tokens[i][0]} - {sorted_tokens[i][1]} occurences\n")
 
         file.write(f"Number of subdomains per url:\n")
         for url in subdomains.keys():
