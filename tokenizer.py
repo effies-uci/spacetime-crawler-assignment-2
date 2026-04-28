@@ -30,22 +30,22 @@ def count_words(html) -> int:
 def parse(html_text: str)->list:
     """parses all text into tokens using whitespace"""
     tokens = []
-    currentString = ""
+    current_str = ""
     for chr in html_text:
-            if (not chr):
+            if not chr:
                 break
-            elif (chr in SEPARATORS):
-                if (currentString==""):
+            elif chr in SEPARATORS:
+                if current_str=="":
                     continue
-                tokens.append(currentString)
-                currentString = ""
-            elif (chr in string.punctuation):
+                tokens.append(current_str)
+                current_str = ""
+            elif chr in string.punctuation:
                 continue
             else:
-                currentString = currentString + chr.lower()
+                current_str = current_str + chr.lower()
                 
-    if (currentString!=""):
-        tokens.append(currentString)
+    if current_str!="":
+        tokens.append(current_str)
 
     return tokens
 
@@ -74,6 +74,6 @@ def isStopWord(token:str) -> bool:
     
 def stemWords(tokens:list) -> list:
     stemmer = PorterStemmer()
-    for token in tokens:
-        token = stemmer.stem(token)
+    for i in range(len(tokens)):
+        tokens[i] = stemmer.stem(tokens[i])
     return tokens

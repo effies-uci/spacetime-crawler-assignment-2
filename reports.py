@@ -18,7 +18,7 @@ def write_page_report(tokenFreq:dict, pageName:str):
     """Write report to log for 1 crawled page"""
     with(open(f"reports/{reportName}.txt", 'a', encoding="UTF-8")) as file:
         file.write(f"{pageName}\n")
-        for token, count in tokenFreq:
+        for token, count in tokenFreq.items():
             file.write(f"-- {token}: {count}\n")
         file.write("\n")
 
