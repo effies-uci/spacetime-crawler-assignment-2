@@ -15,7 +15,7 @@ BANNED_LIST = {"https://wiki.ics.uci.edu/doku.php", "https://ics.uci.edu/~eppste
                "https://grape.ics.uci.edu/wiki/asterix/timeline"}
 
 TRAP_REGEX = {"https://grape.ics.uci.edu.*version=.*",
-              ".*/events/.*"}
+              ".*/events/.*", ".*/makefile"}
 
 #########################################
 visited = set()
@@ -203,7 +203,7 @@ def is_valid(url):
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz|ova"
-              r"|py)$", parsed.path.lower())
+              r"|py|h|cc)$", parsed.path.lower())
 
     except TypeError:
         print ("TypeError for ", parsed)
