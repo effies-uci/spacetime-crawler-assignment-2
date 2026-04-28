@@ -13,12 +13,12 @@ ALLOWED_DOMAINS = {"www.ics.uci.edu","www.cs.uci.edu","www.informatics.uci.edu",
                    "ics.uci.edu"}
 BANNED_LIST = {"https://ics.uci.edu/~eppstein/pix/"}
 
-TRAP_REGEX = ["https://grape.ics.uci.edu.*version=.*",
-              "https://grape.ics.uci.edu.*/zip-attachment/.*",
-              "https://grape.ics.uci.edu.*/raw-attachment/.*",
-              "https://grape.ics.uci.edu.*/attachment/.*",
-              "https://grape.ics.uci.edu.*/timeline.*",
-              "https://flamingo.ics.uci.edu.*/src/.*",
+TRAP_REGEX = [".*grape.ics.uci.edu.*version=.*",
+              ".*grape.ics.uci.edu.*/zip-attachment/.*",
+              ".*grape.ics.uci.edu.*/raw-attachment/.*",
+              ".*grape.ics.uci.edu.*/attachment/.*",
+              ".*grape.ics.uci.edu.*/timeline.*",
+              ".*flamingo.ics.uci.edu.*/src/.*",
               ".*/events/.*", ".*/makefile", ".*format=txt.*",
               ".*action=history.*", ".*/gitignore", ".*/doku.php/.*"]
 
