@@ -17,10 +17,17 @@ def intialize_crawler_log():
 def write_page_report(tokenFreq:dict, pageName:str):
     """Write report to log for 1 crawled page"""
     with(open(f"reports/{reportName}.txt", 'a', encoding="UTF-8")) as file:
-        file.write(f"{pageName}\n")
+        # file.write(f"{pageName}\n")
+        counter = 0
+        most_frequent = ("", 0)
         for token, count in tokenFreq.items():
-            file.write(f"-- {token}: {count}\n")
-        file.write("\n")
+            counter += 1
+            if count > most_frequent[1]:
+                most_frequent = (token, count)
+        file.write(f"{pageName} has {counter} unique tokens!\n")
+        file.write(f"-- {most_frequent[0]} is the most common of them, "
+                   f"occurring {most_frequent[1]} times\n")
+        # file.write("\n")
 
 def write_total_report(tokenFreq:dict, uniqueUrls:set, subdomains:dict, pageLens:dict):
     sorted_tokens = [(k, v) for k, v in sorted(tokenFreq.items(), key=lambda item: item[1], reverse=True)]
