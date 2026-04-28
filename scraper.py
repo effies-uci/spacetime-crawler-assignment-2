@@ -14,11 +14,15 @@ ALLOWED_DOMAINS = {"www.ics.uci.edu","www.cs.uci.edu","www.informatics.uci.edu",
 BANNED_LIST = {"https://ics.uci.edu/~eppstein/pix/"}
 
 TRAP_REGEX = [".*grape.ics.uci.edu.*version=.*",
+              ".*ics.uci.edu/~wscacchi/presentations/.*",
+              ".*ics.uci.edu/~wscacchi/papers/.*",
               ".*grape.ics.uci.edu.*/zip-attachment/.*",
               ".*grape.ics.uci.edu.*/raw-attachment/.*",
               ".*grape.ics.uci.edu.*/attachment/.*",
               ".*grape.ics.uci.edu.*/timeline.*",
               ".*flamingo.ics.uci.edu.*/src/.*",
+              ".*ics.uci.edu/~peymano/dynamic-arch/.*index.htm",
+              r".*sld\d{3}.htm",
               ".*/events/.*", ".*/makefile", ".*format=txt.*",
               ".*action=history.*", ".*/gitignore", ".*/doku.php/.*"]
 
@@ -150,7 +154,7 @@ def is_trap(url, logger = None):
         if logger:
             logger.info("Compiling regex for the first time.")
         for trap in TRAP_REGEX:
-            compiled_regex.append(re.compile(trap))
+            compiled_regex.append(re.compile(trap, re.IGNORECASE))
 
     for pattern in compiled_regex:
         if pattern.match(url):
