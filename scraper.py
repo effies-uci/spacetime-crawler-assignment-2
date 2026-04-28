@@ -11,11 +11,11 @@ from tokenizer import tokenize_html, count_words
 
 ALLOWED_DOMAINS = {"www.ics.uci.edu","www.cs.uci.edu","www.informatics.uci.edu","www.stat.uci.edu",
                    "ics.uci.edu"}
-BANNED_LIST = {"https://wiki.ics.uci.edu/doku.php", "https://ics.uci.edu/~eppstein/pix/",
-               "https://grape.ics.uci.edu/wiki/asterix/timeline"}
+BANNED_LIST = {"https://wiki.ics.uci.edu/doku.php", "https://ics.uci.edu/~eppstein/pix/"}
 
-TRAP_REGEX = {"https://grape.ics.uci.edu.*version=.*",
-              ".*/events/.*", ".*/makefile"}
+TRAP_REGEX = ["https://grape.ics.uci.edu.*version=.*",
+              "https://grape.ics.uci.edu/wiki/.*/timeline.*",
+              ".*/events/.*", ".*/makefile"]
 
 #########################################
 visited = set()
@@ -136,18 +136,19 @@ def get_url_pattern(url):
     gen_path = re.sub(r'[a-f0-9]{8,}', "HASH", gen_path)
     return parsed.netloc + gen_path
 
-def is_trap(url):
+def is_trap(url, logger = None):
     """
     more detailed regex-based trap detection
     """
 
-    if len(compiled_regex) == 0:
+    if compiled_regex:
         for trap in TRAP_REGEX:
             compiled_regex.append(re.compile(trap))
 
-    url_string = get_url_pattern(url)
     for pattern in compiled_regex:
-        if pattern.match(url_string):
+        if logger:
+            logger.info("Compiling regex for the first time.")
+        if pattern.match(url):
             return True
 
     return False
