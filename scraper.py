@@ -11,11 +11,16 @@ from tokenizer import tokenize_html, count_words
 
 ALLOWED_DOMAINS = {"www.ics.uci.edu","www.cs.uci.edu","www.informatics.uci.edu","www.stat.uci.edu",
                    "ics.uci.edu"}
-BANNED_LIST = {"https://wiki.ics.uci.edu/doku.php", "https://ics.uci.edu/~eppstein/pix/"}
+BANNED_LIST = {"https://ics.uci.edu/~eppstein/pix/"}
 
 TRAP_REGEX = ["https://grape.ics.uci.edu.*version=.*",
-              "https://grape.ics.uci.edu/wiki/.*/timeline.*",
-              ".*/events/.*", ".*/makefile"]
+              "https://grape.ics.uci.edu.*/zip-attachment/.*",
+              "https://grape.ics.uci.edu.*/raw-attachment/.*",
+              "https://grape.ics.uci.edu.*/attachment/.*",
+              "https://grape.ics.uci.edu.*/timeline.*",
+              "https://flamingo.ics.uci.edu.*/src/.*",
+              ".*/events/.*", ".*/makefile", ".*format=txt.*",
+              ".*action=history.*", ".*/gitignore", ".*/doku.php/.*"]
 
 #########################################
 visited = set()
@@ -204,7 +209,8 @@ def is_valid(url, logger = None):
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz|ova"
-              r"|py|h|cc|zip|dirs|path|cpp|tgz|defs|txt)$", parsed.path.lower())
+              r"|py|h|cc|zip|dirs|path|cpp|tgz|defs|txt"
+              r"|sh|svg|cls|fig|java|sql|war|xml|conf|class)$", parsed.path.lower())
 
     except TypeError:
         print ("TypeError for ", parsed)
