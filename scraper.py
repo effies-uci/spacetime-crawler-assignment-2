@@ -23,7 +23,7 @@ TRAP_REGEX = [".*grape.ics.uci.edu.*version=.*",
               ".*flamingo.ics.uci.edu.*/src/.*",
               ".*ics.uci.edu/~peymano/dynamic-arch/.*index.htm",
               r".*sld\d{3}.htm",
-              ".*/events/.*", ".*/makefile", ".*format=txt.*",
+              ".*/events/\d{4}.\d{2}.*", ".*/makefile", ".*format=txt.*",
               ".*action=history.*", ".*/gitignore", ".*/doku.php/.*"]
 
 #########################################
