@@ -7,6 +7,7 @@ reportName = ""
 
 def intialize_crawler_log():
     global reportName
+
     reportName = f"Crawler_Log_{date.today()}"
     f = open(f"reports/{reportName}.txt", "w", encoding="UTF-8")
     f.write(f"REPORT LOG FOR CRAWLER RUN===========\n")
