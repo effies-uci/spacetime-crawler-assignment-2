@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import string
 import re
 
-SEPARATORS = [' ','\n','\t']
+SEPARATORS = [' ','\n','\t', '\r', '\v', '\f']
 
 def tokenize_html(html: bytes) -> list[str]:
     """returns tokens from readable html, removing stop words"""
