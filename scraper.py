@@ -3,7 +3,6 @@ from collections import defaultdict
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin, urlencode, parse_qsl
 import tldextract
-import requests
 
 from nltk.corpus.reader.markdown import comma_separated_string_args
 
@@ -65,6 +64,7 @@ def extract_next_links(url, resp, logger = None):
     
     """
 
+    
     url_list = []
 
     if resp.status != 200 or not resp.raw_response or not resp.raw_response.content:
@@ -74,6 +74,10 @@ def extract_next_links(url, resp, logger = None):
 
     if logger:
         logger.info('response exists!')
+
+    content_type = resp.raw_response.headers.get("Content-Type", "").lower()
+    if "text/html" not in content_type:
+        return url_list
 
     try:
         content = resp.raw_response.content
@@ -191,12 +195,6 @@ def is_valid(url, logger = None):
             
             return False
 
-        # check if url is html
-        response = requests.head(url, allow_redirects=True)
-        content_type = response.headers.get("Content-Type", "")
-
-        if "text/html" not in content_type:
-            return False
         
         # check if we already visited
         normalize = defrag_and_normalize(url)
