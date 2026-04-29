@@ -3,6 +3,7 @@ from collections import defaultdict
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin, urlencode, parse_qsl
 import tldextract
+import requests
 
 from nltk.corpus.reader.markdown import comma_separated_string_args
 
@@ -188,6 +189,13 @@ def is_valid(url, logger = None):
             parsed.netloc.endswith("." + domain) 
             for domain in ALLOWED_DOMAINS):
             
+            return False
+
+        # check if url is html
+        response = requests.head(url, allow_redirects=True)
+        content_type = response.headers.get("Content-Type", "")
+
+        if "text/html" not in content_type:
             return False
         
         # check if we already visited
