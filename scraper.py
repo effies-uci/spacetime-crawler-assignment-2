@@ -16,6 +16,7 @@ BANNED_LIST = {"https://ics.uci.edu/~eppstein/pix/"}
 TRAP_REGEX = [".*grape.ics.uci.edu.*version=.*",
               ".*ics.uci.edu/~wscacchi/presentations/.*",
               ".*ics.uci.edu/~wscacchi/papers/.*",
+              ".*ics.uci.edu/~dechter/softwares/.*"
               ".*grape.ics.uci.edu.*/zip-attachment/.*",
               ".*grape.ics.uci.edu.*/raw-attachment/.*",
               ".*grape.ics.uci.edu.*/attachment/.*",
@@ -228,7 +229,8 @@ def is_valid(url, logger = None):
             + r"|thmx|mso|arff|rtf|jar|csv"
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz|ova"
               r"|py|h|cc|zip|dirs|path|cpp|tgz|defs|txt"
-              r"|sh|svg|cls|fig|java|sql|war|xml|conf|class)$", parsed.path.lower())
+              r"|sh|svg|cls|fig|java|sql|war|xml|conf|class"
+              r"|mht)$", parsed.path.lower())
 
     except TypeError:
         print ("TypeError for ", parsed)
