@@ -20,6 +20,7 @@ class Worker(Thread):
         super().__init__(daemon=True)
         
     def run(self):
+        self.logger.info("Starting thread")
         while True:
             tbd_url = self.frontier.get_tbd_url()
             if not tbd_url:
