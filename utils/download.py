@@ -7,9 +7,17 @@ from utils.response import Response
 def download(url, config, logger=None):
     host, port = config.cache_server
     logger.info(f"Getting logs from {url}")
-    resp = requests.get(
-        f"http://{host}:{port}/",
-        params=[("q", f"{url}"), ("u", f"{config.user_agent}")])
+
+    while True:
+        try:
+            resp = requests.get(
+                f"http://{host}:{port}/",
+                params=[("q", f"{url}"), ("u", f"{config.user_agent}")], timeout=2)
+            break
+        except requests.exceptions.Timeout:
+            logger.error("Get request timed out. Attempting again in 5 seconds.")
+            time.sleep(5)
+
     try:
         if resp and resp.content:
             return Response(cbor.loads(resp.content))
