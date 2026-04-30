@@ -1,0 +1,7 @@
+2026-04-28 10:25:51,673 - CRAWLER - INFO - Merging thread 1
+2026-04-28 11:07:41,091 - CRAWLER - INFO - Merging thread 1
+2026-04-28 23:42:40,554 - CRAWLER - INFO - Merging thread 1
+2026-04-28 23:44:02,184 - CRAWLER - INFO - Merging thread 1
+2026-04-28 23:56:17,141 - CRAWLER - INFO - blocking on thread 1
+2026-04-29 00:03:21,823 - CRAWLER - INFO - blocking on thread 1
+2026-04-29 00:49:46,398 - CRAWLER - INFO - blocking on thread 1

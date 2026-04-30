@@ -9,13 +9,14 @@ from nltk.corpus.reader.markdown import comma_separated_string_args
 import reports
 from tokenizer import tokenize_html, count_words
 
-ALLOWED_DOMAINS = {"www.ics.uci.edu","www.cs.uci.edu","www.informatics.uci.edu","www.stat.uci.edu",
+ALLOWED_DOMAINS = {"cs.uci.edu","informatics.uci.edu","stat.uci.edu",
                    "ics.uci.edu"}
 BANNED_LIST = {"https://ics.uci.edu/~eppstein/pix/"}
 
 TRAP_REGEX = [".*grape.ics.uci.edu.*version=.*",
               ".*ics.uci.edu/~wscacchi/presentations/.*",
               ".*ics.uci.edu/~wscacchi/papers/.*",
+              ".*ics.uci.edu/~dechter/softwares/.*"
               ".*grape.ics.uci.edu.*/zip-attachment/.*",
               ".*grape.ics.uci.edu.*/raw-attachment/.*",
               ".*grape.ics.uci.edu.*/attachment/.*",
@@ -84,6 +85,14 @@ def extract_next_links(url, resp, logger = None):
         actual_url = resp.raw_response.url
 
         canonical_url = defrag_and_normalize(actual_url)
+
+        parsed_url = urlparse(canonical_url)
+        if not any(
+                parsed_url.netloc == domain or
+                parsed_url.netloc.endswith("." + domain)
+                for domain in ALLOWED_DOMAINS):
+            logger.info(f"In domain {parsed_url.netloc}, leaving.")
+            return url_list
 
         if logger:
             logger.info(f"extracting url {canonical_url}")
@@ -220,7 +229,8 @@ def is_valid(url, logger = None):
             + r"|thmx|mso|arff|rtf|jar|csv"
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz|ova"
               r"|py|h|cc|zip|dirs|path|cpp|tgz|defs|txt"
-              r"|sh|svg|cls|fig|java|sql|war|xml|conf|class)$", parsed.path.lower())
+              r"|sh|svg|cls|fig|java|sql|war|xml|conf|class"
+              r"|mht)$", parsed.path.lower())
 
     except TypeError:
         print ("TypeError for ", parsed)

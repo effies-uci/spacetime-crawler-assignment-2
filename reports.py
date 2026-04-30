@@ -2,7 +2,7 @@ from datetime import date,time
 from pathlib import Path
 '''Print crawler data into a text file in reports/ directory'''
 
-NUMFREQWORDS = 20
+NUMFREQWORDS = 50
 reportName = ""
 
 def intialize_crawler_log():
@@ -39,11 +39,11 @@ def write_total_report(tokenFreq:dict, uniqueUrls:set, subdomains:dict, pageLens
 
         file.write(f"{NUMFREQWORDS} Most Frequent Words:\n")
         for i in range(NUMFREQWORDS):
-            file.write(f"\t{sorted_tokens[i][0]} - {sorted_tokens[i][1]} occurences\n")
+            file.write(f"\t{sorted_tokens[i][0]} - {sorted_tokens[i][1]} occurrences\n")
 
-        file.write(f"Number of subdomains per url:\n")
-        for url in subdomains.keys():
-            file.write(f"\t{url}.uci.edu - {subdomains[url]} subdomains\n")
+        file.write(f"Occurrences of unique subdomains:\n")
+        for url in sorted([k for k in subdomains.keys()]):
+            file.write(f"\t{url}.uci.edu - {subdomains[url]} occurrences\n")
         
         file.write(f"Longest page: {getLongestPage(pageLens)}")
 
