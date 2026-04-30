@@ -16,7 +16,7 @@ BANNED_LIST = {"https://ics.uci.edu/~eppstein/pix/"}
 TRAP_REGEX = [".*grape.ics.uci.edu.*version=.*",
               ".*ics.uci.edu/~wscacchi/presentations/.*",
               ".*ics.uci.edu/~wscacchi/papers/.*",
-              ".*ics.uci.edu/~dechter/softwares/.*"
+              ".*ics.uci.edu/~dechter/softwares/.*",
               ".*grape.ics.uci.edu.*/zip-attachment/.*",
               ".*grape.ics.uci.edu.*/raw-attachment/.*",
               ".*grape.ics.uci.edu.*/attachment/.*",
