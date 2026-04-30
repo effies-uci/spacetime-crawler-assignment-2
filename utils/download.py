@@ -1,12 +1,32 @@
 import requests
 import cbor
 import time
+from threading import Lock
+from tldextract import extract
 
 from utils.response import Response
 
-def download(url, config, logger=None):
+recently_requested = set()
+domain_mutex = Lock()
+
+def download(url, config, logger=None, time_delay = 1):
     host, port = config.cache_server
-    logger.info(f"Getting logs from {url}")
+
+    ext = extract(url)
+    domain = ext.fqdn
+
+    domain_mutex.acquire(True)
+
+    if domain in recently_requested:
+        domain_mutex.release()
+        # return url to frontier, return
+        pass
+
+    recently_requested.add(domain)
+    domain_mutex.release()
+
+    if logger:
+        logger.info(f"Getting logs from {url}")
 
     while True:
         try:
@@ -15,7 +35,8 @@ def download(url, config, logger=None):
                 params=[("q", f"{url}"), ("u", f"{config.user_agent}")], timeout=2)
             break
         except requests.exceptions.Timeout:
-            logger.error("Get request timed out. Attempting again in 5 seconds.")
+            if logger:
+                logger.error("Get request timed out. Attempting again in 5 seconds.")
             time.sleep(5)
 
     try:
@@ -23,7 +44,11 @@ def download(url, config, logger=None):
             return Response(cbor.loads(resp.content))
     except (EOFError, ValueError) as e:
         pass
-    logger.error(f"Spacetime Response error {resp} with url {url}.")
+    finally:
+        time.sleep(time_delay)
+        # grab mutex and remove domain from set
+    if logger:
+        logger.error(f"Spacetime Response error {resp} with url {url}.")
     return Response({
         "error": f"Spacetime Response error {resp} with url {url}.",
         "status": resp.status_code,

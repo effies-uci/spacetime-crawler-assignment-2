@@ -28,7 +28,7 @@ class Worker(Thread):
                 reports.write_total_report(scraper.word_freq, scraper.unique_urls,
                                            scraper.unique_subdomains, scraper.page_lens)
                 break
-            resp = download(tbd_url, self.config, self.logger)
+            resp = download(tbd_url, self.config, self.logger, self.config.time_delay)
             self.logger.info(
                 f"Downloaded {tbd_url}, status <{resp.status}>, "
                 f"using cache {self.config.cache_server}.")
@@ -36,4 +36,4 @@ class Worker(Thread):
             for scraped_url in scraped_urls:
                 self.frontier.add_url(scraped_url)
             self.frontier.mark_url_complete(tbd_url)
-            time.sleep(self.config.time_delay)
+
