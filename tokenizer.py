@@ -16,7 +16,7 @@ def tokenize_html(html: bytes) -> list[str]:
     text = soup.get_text()
     tokens = parse(text)
     
-    return [t for t in tokens if not isStopWord(t) and len(t) > 1]
+    return [t for t in tokens if not isStopWord(t)]
 
 def count_words(html) -> int:
     """count total words including stop words"""
