@@ -36,6 +36,7 @@ page_lens: dict = dict() # url key, value int
 unique_subdomains: dict = defaultdict(int)
 compiled_regex: list[re.Pattern] = list()
 simhash_dict: dict = dict()
+similar_urls: dict = defaultdict(list)
 
 #########################################
 
@@ -116,6 +117,7 @@ def extract_next_links(url, resp, logger = None):
 
         if similar_hash:
             logger.info(f"Similarity detected! {canonical_url} is similar to {simhash_dict[similar_hash]}.")
+            similar_urls[simhash_dict[similar_hash]].append(canonical_url)
         else:
             pass
 
