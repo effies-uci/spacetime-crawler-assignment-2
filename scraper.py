@@ -7,7 +7,7 @@ import tldextract
 from nltk.corpus.reader.markdown import comma_separated_string_args
 
 import reports
-from tokenizer import tokenize_html, count_words
+from tokenizer import tokenize_html, count_words, get_sim_hash
 
 ALLOWED_DOMAINS = {"cs.uci.edu","informatics.uci.edu","stat.uci.edu",
                    "ics.uci.edu"}
@@ -35,6 +35,7 @@ word_freq: dict = defaultdict(int)
 page_lens: dict = dict() # url key, value int
 unique_subdomains: dict = defaultdict(int)
 compiled_regex: list[re.Pattern] = list()
+simhash_dict: dict = dict()
 
 #########################################
 
@@ -109,6 +110,18 @@ def extract_next_links(url, resp, logger = None):
             page_word_freq[token] += 1
             word_freq[token] += 1
 
+        # simhash
+        url_simhash = get_sim_hash(page_word_freq)
+        similar_hash = is_similar(url_simhash)
+
+        if similar_hash:
+            logger.info(f"Similarity detected! {canonical_url} is similar to {simhash_dict[similar_hash]}.")
+        else:
+            pass
+
+        simhash_dict[url_simhash] = canonical_url
+
+
         # find subdomain
         unique_subdomains[tldextract.extract(canonical_url).subdomain] += 1
 
@@ -182,6 +195,15 @@ def in_ban_list(parse_url):
             return True
 
     return False
+
+def is_similar(simhash):
+    for hash in simhash_dict.keys():
+        different_bits = (hash ^ simhash).bit_count()
+        same_bits = 32 - different_bits
+
+        if same_bits / 32.0 >= 0.9:
+            return hash
+    return ""
 
 
 #### Validity checker :3 ##################################################
