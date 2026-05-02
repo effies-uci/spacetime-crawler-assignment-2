@@ -26,7 +26,7 @@ class Worker(Thread):
             if not tbd_url:
                 self.logger.info("Frontier is empty. Stopping Crawler.")
                 reports.write_total_report(scraper.word_freq, scraper.unique_urls,
-                                           scraper.unique_subdomains, scraper.page_lens)
+                                           scraper.unique_subdomains, scraper.page_lens, scraper.similar_urls)
                 break
             resp = download(tbd_url, self.config, self.logger, self.config.time_delay)
 
