@@ -112,9 +112,10 @@ def extract_next_links(url, resp, logger = None):
 
         # simhash
         url_simhash = get_sim_hash(page_word_freq)
+        similar_hash = is_similar(url_simhash)
 
-        if is_similar(url_simhash):
-            pass
+        if similar_hash:
+            logger.info(f"Similarity detected! {canonical_url} is similar to {simhash_dict[similar_hash]}.")
         else:
             pass
 
@@ -201,8 +202,8 @@ def is_similar(simhash):
         same_bits = 32 - different_bits
 
         if same_bits / 32.0 >= 0.9:
-            return True
-    return False
+            return hash
+    return ""
 
 
 #### Validity checker :3 ##################################################
