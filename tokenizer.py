@@ -78,7 +78,7 @@ def stemWords(tokens:list) -> list:
         tokens[i] = stemmer.stem(tokens[i])
     return tokens
 
-def get_sim_hash(wordfreq:dict):
+def get_sim_hash(wordfreq):
     v = [0] * 32
 
     for key in wordfreq.keys():
