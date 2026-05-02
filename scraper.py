@@ -113,7 +113,7 @@ def extract_next_links(url, resp, logger = None):
         unique_subdomains[tldextract.extract(canonical_url).subdomain] += 1
 
         # write to report
-        reports.write_page_report(page_word_freq, canonical_url)
+        # reports.write_page_report(page_word_freq, canonical_url)
 
         soup = BeautifulSoup(resp.raw_response.content, 'lxml')
         html_links = soup.findAll('a', href=True)
