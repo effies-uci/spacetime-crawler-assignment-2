@@ -29,6 +29,14 @@ class Worker(Thread):
                                            scraper.unique_subdomains, scraper.page_lens)
                 break
             resp = download(tbd_url, self.config, self.logger, self.config.time_delay)
+
+            if resp is None: # domain was too recently requested
+                self.logger.info(f"Domain from {tbd_url} was requested too recently.")
+                # put url back into frontier to try again later
+                self.frontier.put_back_tbd_url(tbd_url)
+                continue
+
+            # if the domain is downloaded successfully:
             self.logger.info(
                 f"Downloaded {tbd_url}, status <{resp.status}>, "
                 f"using cache {self.config.cache_server}.")

@@ -12,6 +12,7 @@ class Frontier(object):
         self.logger = get_logger("FRONTIER")
         self.config = config
         self.to_be_downloaded = list()
+        self.tbd_lock = RLock()
         
         if not os.path.exists(self.config.save_file) and not restart:
             # Save file does not exist, but request to load save.
@@ -49,24 +50,31 @@ class Frontier(object):
 
     def get_tbd_url(self):
         try:
-            return self.to_be_downloaded.pop()
+            with self.tbd_lock:
+                return self.to_be_downloaded.pop()
         except IndexError:
             return None
+
+    def put_back_tbd_url(self, url):
+        with self.tbd_lock:
+            self.to_be_downloaded.append(url)
 
     def add_url(self, url):
         url = normalize(url)
         urlhash = get_urlhash(url)
-        if urlhash not in self.save:
-            self.save[urlhash] = (url, False)
-            self.save.sync()
-            self.to_be_downloaded.append(url)
+        with self.tbd_lock:
+            if urlhash not in self.save:
+                self.save[urlhash] = (url, False)
+                self.save.sync()
+                self.to_be_downloaded.append(url)
     
     def mark_url_complete(self, url):
-        urlhash = get_urlhash(url)
-        if urlhash not in self.save:
-            # This should not happen.
-            self.logger.error(
-                f"Completed url {url}, but have not seen it before.")
+        with self.tbd_lock:
+            urlhash = get_urlhash(url)
+            if urlhash not in self.save:
+                # This should not happen.
+                self.logger.error(
+                    f"Completed url {url}, but have not seen it before.")
 
-        self.save[urlhash] = (url, True)
-        self.save.sync()
+            self.save[urlhash] = (url, True)
+            self.save.sync()

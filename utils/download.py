@@ -15,12 +15,12 @@ def download(url, config, logger=None, time_delay = 1):
     ext = extract(url)
     domain = ext.fqdn
 
+    # concurrency safety
     domain_mutex.acquire(True)
 
     if domain in recently_requested:
         domain_mutex.release()
-        # return url to frontier, return
-        pass
+        return None
 
     recently_requested.add(domain)
     domain_mutex.release()
@@ -45,8 +45,11 @@ def download(url, config, logger=None, time_delay = 1):
     except (EOFError, ValueError) as e:
         pass
     finally:
+        # sleep to ensure that no other thread queries the domain
+        # within the politeness delay
         time.sleep(time_delay)
-        # grab mutex and remove domain from set
+        with domain_mutex:
+            recently_requested.remove(domain)
     if logger:
         logger.error(f"Spacetime Response error {resp} with url {url}.")
     return Response({
